@@ -1,0 +1,3643 @@
+[10:41:23 AM] Tokwan:
+http://railscasts.com/announcements/13
+Railscasts
+Announcement - RailsCasts
+Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers.
+ Too bad the reason he's doing it because he's feeling burned out
+ But still. Great news. Tons of great contents
+
+[12:10:19 PM] Teuku Faruq:
+Guys
+ Any local shop selling Tessel 2?
+ https://tessel.io .. The closest is China, but wondering if there is any local shop selling it as well
+
+[3:15:50 PM] Faiz Mokhtar:
+I remember that I bought the subscription for Railscasts 2 month before he burned out.
+ Are most of the videos in there still relevant? Pretty sure a lot of the gems discussed already gone through some changes.
+
+[3:35:55 PM] Tokwan:
+Most of the time I watch them to see how he did it, or some basic idea how the gem works. For me, watch 10 minutes of his video works better than me reading for 10 minutes
+
+[3:57:17 PM] Amree:
+I like the text version, faster to skim through. But when I have time, I just watch the whole thing
+ His price is pretty low (compared to others), gorails and rubytapas cost nearly $20
+
+--- Thursday, June 29, 2017 ---
+
+[7:11:01 AM] 𖣓🅂🄰🄻🅸🅼🄰🄽𖣓 ( اوبليكس ):
+http://www.catonmat.net/blog/225-programmer-tools/
+www.catonmat.net
+Now there are 225 programmer tools! - good coders code, great coders reuse
+Last month Browserling's programmer tools collection reached 200 tools, making it world's largest collection of useful tools. Just now I added 25 more...
+
+[10:34:47 AM] Ang ChinHan:
+Great artists copy.
+
+[6:53:39 PM] Kamal:
+> Tokwan
+> Shouldn't have given the access to junior isn't it? Another ques
+They don't give access to junior. They basically gave access to everyone because the credentials used as a sample code in the documentation turn out to be a real credentials. Before the junior incident, everyone seem to intuitively replaced the "fake" credentials in the example with their own credentials, so things working as expected. But the junior made a "mistake" to execute the command as is, without replacing the "example" credentials.
+ This is one of the reason we don't have access to production db at all from dev machine.
+[6:58:20 PM] MMM:
+wtf
+[7:19:43 PM] Ahmad Rahimie Ahmad Zailani:
+> Kamal
+> This is one of the reason we don't have access to production db
+There's actually article out there talking about versioning the app/env config
+[7:19:51 PM] MMM:
+Guys, tesseract is quite crappy right?
+[7:27:30 PM] Erik Dubbelboer:
+I'm testing tesseract right now, you definitely need to do some image manipulation first to get good results
+[7:28:29 PM] MMM:
+yup, absolutely
+[7:28:44 PM] Erik Dubbelboer:
+This is what I'm doing at the moment which gives me okish results: https://gist.github.com/erikdubbelboer/e272bb119240b7a8459f1a874bb0705d
+ocr.py
+[Photo]
+
+[9:53:06 PM] Sharuzzaman Ahmat Raslan:
+I use gImageReader, and it works well. it use tesseract as back end
+
+--- Friday, June 30, 2017 ---
+
+[11:55:54 AM] Tokwan:
+Had a video call for Facebook Dev Circle lead
+ https://developers.facebook.com/developercircles
+
+Facebook for Developers
+Facebook for Developers - Developer Circles - Home
+Join Developer Circles from Facebook to attend local meetups, collaborate in Facebook Groups and learn about the latest technologies from Facebook and...
+ Good to know there are other people who are interviewing for it as well
+ In a nutshell, it's not paid in case anyone's wondering. No FB engineers will come (yet). But they do provide monthly budget, around $250. More than good enough tbh
+[12:10:42 PM] MMM:
+Nice, finally a place to talk about GraphQL nonstop
+
+[12:16:30 PM] Chee Leong Chow:
+awww, no love for SPARQL? lol https://en.wikipedia.org/wiki/SPARQL
+
+Wikipedia
+SPARQL
+SPARQL (pronounced "sparkle", a recursive acronym for SPARQL Protocol and RDF Query Language) is an RDF query language, that is, a semantic query lang...
+
+[12:22:27 PM] Tokwan:
+> MMM
+> Nice, finally a place to talk about GraphQL nonstop
+Awesome. Can suggest you then :)
+
+[12:58:27 PM] Ravin Optional:
+> Tokwan
+>  https://developers.facebook.com/developercircles
+What is this? I'm totally goose egg on this.
+edited 
+[1:05:20 PM] Tokwan:
+Just a Facebook offline & online community. Will have a meetup once a month, anything related to Facebook tech & tools
+ React / React Native, Analytics, GraphQL. I think we have enough devs in town using those tech to talk and share about it
+ Or can just organise a hackaton
+
+[1:21:10 PM] Ravin Optional:
+Oh. Interesting.
+[2:38:07 PM] MMM:
+> Tokwan
+> Awesome. Can suggest you then :)
+Alright, maybe a GraphQL 101
+
+[4:14:22 PM] Afif Sohaili:
+would love that
+
+--- Sunday, July 2, 2017 ---
+
+[5:07:21 PM] Kamal:
+Do you guys practice on-call shift to watch over production system ? Previously, I don't agree on having on-call shift, preferring "mutual responsibility" approach. But now I started to feel it's bad for everyone, as that mean everyone can't "disconnect" from work at all time. We currently discussing how the on-call shift should look like - 2 days per shift, or one week shift etc. We only a team of 5 currently.
+
+I prefer 2 days shift, but some prefer weekly shift.
+ Related HN discussion - https://news.ycombinator.com/item?id=10892771
+
+[5:12:12 PM] Sharuzzaman Ahmat Raslan:
+on call usually weekly
+ easy for people to plan event on weekends
+
+[5:24:08 PM] Kamal:
+I'm thinking 7 days is just too long and might be ineffective toward the end of the cycle - people get bored and tired.
+ but look like I'm alone in thinking that way for now.
+
+--- Monday, July 3, 2017 ---
+
+[10:08:48 PM] Tokwan:
+How do you guys hire for VP of engineering, CTO? Interested to know the flow
+
+[10:21:06 PM] Sharuzzaman Ahmat Raslan:
+> Tokwan
+> How do you guys hire for VP of engineering, CTO? Interested to k
+if I'm hiring, during interview, I will tell them what is the current situation, and ask how they are going to fix the issue, and make things better into the future
+
+--- Tuesday, July 4, 2017 ---
+
+[10:10:21 AM] Tokwan:
+Did you have any checklist? We did asked that, but somehow it feels like I don't get much info from their answers
+ I doubt it was their fault, more like we need to refine our processes more
+
+[10:52:30 AM] Chee Leong Chow:
+I will first sprinkle glitters to the problems, then I'll ask everyone to dance around it. Blessed holy pony, I hope I can qualify.
+[11:52:36 AM] MMM:
+Any one ever try OCRing MyKads?
+
+[11:53:46 AM] E A Faisal:
+from scanned image?
+[11:54:16 AM] MMM:
+From photo of MyKad
+ I'm using Google Cloud Vision and it picks up the stripes as real characters
+
+[12:05:26 PM] Chee Leong Chow:
+how do you know the stripes are not real characters?
+
+[12:06:21 PM] Choon-Siang (@Jeffrey04) Lai:
+what stripes?
+
+[12:06:53 PM] Chee Leong Chow via @gif:
+[GIF]
+
+[12:08:20 PM] MMM:
+Even if they are real characters, they are noise that a human wouldn't detect.
+ I'm testing out Abby, quite a bit more expensive than Cloud Vision but it might be worth it.
+
+[12:10:19 PM] Chee Leong Chow:
+probably it's some neural linguistic programming thing by the lizardmen.
+[12:11:34 PM] MMM:
+OCR is harder than I thought, I though it would be get_text(image) and you're done.
+
+[12:12:12 PM] Chee Leong Chow:
+when I was little I thought making money is just, fill_money(bank_account)
+
+[12:12:30 PM] 𖣓🅂🄰🄻🅸🅼🄰🄽𖣓 ( اوبليكس ):
+:grimacing:
+
+[12:13:55 PM] Sharuzzaman Ahmat Raslan:
+> MMM
+> I'm using Google Cloud Vision and it picks up the stripes as rea
+the stripes are meant to be used as anti photocopy reproduction
+> Tokwan
+> Did you have any checklist? We did asked that, but somehow it fe
+use 12 factor app as base?
+ we have code tracking, how to make it better?
+
+[12:30:40 PM] E A Faisal:
+you wouldnt be able to get good result from ocr without manipulating the image
+[12:32:00 PM] MMM:
+Yeah especially with Tesseract.
+
+[12:33:56 PM] E A Faisal:
+i found with tesseract it's best to work with grey scale image
+[12:34:50 PM] MMM:
+I noticed with Tesseract that I can process MyKADs with it if I splice the text areas individually and have a high enough DPI.
+ Abby is a lot better. Perfect actually.
+ There is still noise but the noise is separated from the real stuff - http://cloud.ocrsdk.com/Demo/
+
+[1:25:15 PM] Ang ChinHan:
+You need to do some preprocessing to crop the text section.
+[2:39:19 PM] MMM:
+What's the easiest way to parse XML in Java
+
+[2:47:06 PM] Chee Leong Chow:
+dude XML is like native in java
+[2:56:54 PM] MMM:
+Last time I used the standard libraries and it wasn't that fun.
+edited 
+[2:58:11 PM] Ang ChinHan:
+Ok, curious. Gimme a sanitized XML here, I wanna see how hard can it be. (@angch got nerdsniped)
+ Protip, to find an alternative to $foo, just type "$foo vs" and wait for google autocomplete to hint you.
+ BTW, I'm interested in the IC OCR thing. Keep me posted. Was thinking about it, and I *think* it's a simple thing if we do some image processing before OCR.
+[3:25:30 PM] MMM:
+Use this - http://ocrsdk.com/ - it is perfect
+
+Ocrsdk
+ABBYY Cloud OCR SDK
+ABBYY Cloud OCR SDK is Highly-Accurate Recognition Technology Available in a Cloud Through Web API
+edited 
+[3:27:14 PM] Ang ChinHan:
+Awesome. Will keep that in mind. Moving on to other stuff first.
+
+[4:10:28 PM] Irfan Radzi:
+> Ang ChinHan
+> Protip, to find an alternative to $foo, just type "$foo vs" and
+[Photo]
+Great fight
+
+[4:12:28 PM] Ang ChinHan:
+I prefer cosmic cube myself
+ [Photo]
+
+[4:18:49 PM] Chee Leong Chow:
+foo fighter
+
+[4:24:45 PM] Ravin Optional:
+> Chee Leong Chow
+> foo fighter
+My man.
+[5:12:24 PM] MMM:
+Crap, we don't have the budget for Abby so going to use Cloud Vision
+[5:29:25 PM] MMM:
+Abby can even deal with those cases where the hologram is on top of the name
+
+[7:18:57 PM] Kamal:
+Look like I missed this news, gitlab bought gitter back in Mac, and today as promised, they open source it.
+
+https://about.gitlab.com/2017/03/15/gitter-acquisition/
+
+GitLab
+Gitter is joining the GitLab Team
+We're excited to announce that Gitter has been acquired by GitLab!
+
+--- Wednesday, July 5, 2017 ---
+
+[6:47:21 AM] Kamal:
+kcgi | minimal CGI and FastCGI library for C
+https://kristaps.bsd.lv/kcgi/
+ Just in case you want to write web app in c ;)
+
+[9:18:00 AM] Teuku Faruq:
+Morning
+ Anyone tried https://plot.ly/products/dash/ ?
+
+plot.ly
+Dash by Plotly
+Dash is a Python framework for building analytical web applications. No JavaScript required.
+ It is something like Shiny from R
+
+[9:59:53 AM] Ahmad Syazwan:
+Tangential: I got my elder brother, a doctor in HKL to dabble in R. I even setup his shiny server. He's by no means technical and it was a challenge to get him to grasp simple concepts (teaching remotely) but honestly I didn't do all that much. Made me realize that efforts put into making these tools friendly paid off. A doctor with no tech background albeit with a techie lil bro managed to make a few medical analysis R apps.
+
+Funnily enough, I started him first with Python and Jupyter notebook. I thought the easiest path into coding analytics. Unfortunately it didn't click with him. So ultimately options and alternatives are good.
+ Got him to buy his own domain yesterday instead of piggybacking mine. saifulsafuan.com if you're interested. His most useful one is probably the dengue app.
+
+[10:00:58 AM] Syafiq Faiz:
+> Ahmad Syazwan
+> Tangential: I got my elder brother, a doctor in HKL to dabble in
+interesting
+
+[10:01:17 AM] Alex Hong Pin Tan:
+:clap:
+[10:23:07 AM] hizam mohd:
+> Ahmad Syazwan
+> Got him to buy his own domain yesterday instead of piggybacking
+:+1::+1:
+
+[10:30:27 AM] Kamal:
+> Teuku Faruq
+>  Anyone tried https://plot.ly/products/dash/ ?
+bumped into this few weeks ago. No time to try it yet but I know one guy on linkedin that all into these kind of stuff.
+
+[11:01:33 AM] Ikhwan Hayat:
+> Ahmad Syazwan
+> Tangential: I got my elder brother, a doctor in HKL to dabble in
+Wow naiss..
+
+[4:35:34 PM] Kamal:
+https://www.infoq.com/news/2010/04/debate-role-of-ops
+
+InfoQ
+Debate: What is the Role of an Operations Team in Software Development Today? [Updated May 10th]
+In the last several years, with the rise of such phenomena as Cloud Computing and DevOps, there has been some debate about the role of the traditional...
+
+[5:08:45 PM] Sharuzzaman Ahmat Raslan:
+> Kamal
+>  https://www.infoq.com/news/2010/04/debate-role-of-ops
+I have seen many cases that dev wants to manage cloud infra, but don't understand the basic of sysadmin. some even struggling with command line
+
+[5:10:15 PM] Hassan odin88 Java/.Net/PHP Developer:
+> Sharuzzaman Ahmat Raslan
+> I have seen many cases that dev wants to manage cloud infra, but
+what about scripting like bash ?
+
+[5:12:41 PM] Sharuzzaman Ahmat Raslan:
+> Hassan odin88 Java/.Net/PHP Developer
+> what about scripting like bash ?
+dev might understand the code flow, but might have issue understanding the need to use awk, grep, sed, cut, tr, etc
+
+[5:13:23 PM] Chee Leong Chow:
+enlighten them
+ people like me cannot script in certain environment too
+
+[5:14:09 PM] Hassan odin88 Java/.Net/PHP Developer:
+yeah .. i mean for me as dev i dont know bash scripting .. but what about ppl who want to become sysadmin .. is bash scripting skill is a must for them ?
+
+[5:14:25 PM] Chee Leong Chow:
+or power shell lol
+
+[5:14:59 PM] Sharuzzaman Ahmat Raslan:
+> Hassan odin88 Java/.Net/PHP Developer
+> yeah .. i mean for me as dev i dont know bash scripting .. but w
+yes
+
+[5:15:12 PM] Ang ChinHan:
+> Hassan odin88 Java/.Net/PHP Developer
+> yeah .. i mean for me as dev i dont know bash scripting .. but w
+No. Grokking the how everything works, at least from a high/low level enough, is the key.
+
+[5:16:00 PM] Jun Yi:
+Just learn whatever enough to get the job done
+
+[5:16:38 PM] Sharuzzaman Ahmat Raslan:
+you are not a sysadmin if you cannot script
+
+[5:17:20 PM] Chee Leong Chow:
+point and click sysadmin will be sad :(
+
+[5:17:41 PM] Tokwan:
+I'll just learn along the way. If I'm following that kind of definitions, I'll never be confident enough to manage my own infra
+
+[5:17:57 PM] Chee Leong Chow:
+if I can only write c, can't I use c to do scripting work? :(
+
+[5:18:24 PM] Jun Yi:
+Efficiency. How long is that going to take you to write
+
+[5:19:03 PM] Ang ChinHan:
+It's all about understanding how things work, how things can break, and doing the most efficient thing to make yourself obsolete. Everything else are implementation details.
+
+[5:21:18 PM] Chee Leong Chow:
+if I use php script, does that count as scripting?
+
+[5:22:07 PM] Ang ChinHan:
+Avoiding bash is probably a good idea. Too easy to footgun.
+
+[5:24:35 PM] Choon-Siang (@Jeffrey04) Lai:
+> Jun Yi
+> Efficiency. How long is that going to take you to write
+for the same purpose, i write faster in php/python compared to bash
+
+[5:24:43 PM] Ang ChinHan:
+And assuming bash is on your server is also probably a bad idea. busybox is way too prevalent now. Can't remember the number of times I see newbies totally screwing up because of wrong bash usage/permission/piping.
+ And the concept of $CWD screwing people up, and the lack of tty (interactive) stuff screwing up cronjobs. "Why my script runs on command line, but not on cron?"
+
+[5:26:20 PM] Jun Yi:
+For one-off scripting, bash is faster to write than python
+
+[5:26:43 PM] Chee Leong Chow:
+awww, no love for power shell?
+
+[5:26:55 PM] Ang ChinHan:
+Just a bigger footgun.
+
+[5:27:33 PM] Jun Yi:
+I guess the bigger question here is to decide whether if something qualifies as a one-off scripting
+
+[5:27:48 PM] Choon-Siang (@Jeffrey04) Lai:
+more like your familiarity with the language lol
+
+[5:27:49 PM] Jun Yi:
+that eventually get reused over and over again for the next five years
+
+[5:28:16 PM] Chee Leong Chow:
+your nodejs modules might disagree with you lol
+
+[5:28:34 PM] Choon-Siang (@Jeffrey04) Lai:
+bash may be better but i am not good in it, if i need to get things done quick, i will pick the language i feel most comfortable with
+
+[5:29:14 PM] Chee Leong Chow:
+given emacs as an os, does emacslisp mastery qualifies one as a sysadmin?
+edited 
+[5:29:15 PM] Ang ChinHan:
+I still need to google to figure out how to do loops properly in bash. Perl is easier.
+
+[5:29:29 PM] Jun Yi:
+Well, it all depends if you need to do one-off scripting very very often; if you do, it's probably worth learning bash
+edited 
+Just do the practical thing, get the job done and get it done well.
+edited 
+[5:30:46 PM] Ang ChinHan:
+/me suck in breath. ahem. https://shed.bike/
+
+[5:32:02 PM] Chee Leong Chow:
+pink is better http://pink.bikeshed.org/
+
+[5:50:47 PM] Ravin Optional:
+> Chee Leong Chow
+> given emacs as an os, does emacslisp mastery qualifies one as a
+Nope.
+edited 
+> Kamal
+>  https://www.infoq.com/news/2010/04/debate-role-of-ops
+Probable closely related to this topic. (Yes its a video, because I;m evil) 
+https://www.youtube.com/watch?v=ajT90pC3ris
+YouTube
+DevOpsDays Portland, 2016: Kelsey Hightower - NoOps
+The future of how the Developers' software will integrate with daily operational tasks to create more automated and stable environments. Leaky Abstraction: h...
+[Video]
+edited 
+[5:56:03 PM] Ang ChinHan:
+In other news, he still haven't finished the Kubernetes book (and just resorted to https://github.com/kelseyhightower/kubernetes-the-hard-way )
+
+GitHub
+kelseyhightower/kubernetes-the-hard-way
+kubernetes-the-hard-way - Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts.
+edited 
+[6:11:02 PM] Ravin Optional:
+> Ang ChinHan
+>  In other news, he still haven't finished the Kubernetes book (an
+Git repo more practical. Books gets obsolute fast becoz have to go through dang book publisher(unless self publish)
+
+[6:11:27 PM] Ang ChinHan:
+Yeah.
+
+[6:13:03 PM] Kamal:
+> Kamal
+>  https://www.infoq.com/news/2010/04/debate-role-of-ops
+I'm looking into this as I'm thinking of having more specific Ops role in our team. Need to define what Ops role really is.
+
+[6:15:00 PM] Ang ChinHan:
+Not the person that does development. But everything else, make sure everything is working. Preemptively.
+
+[6:30:25 PM] Chee Leong Chow:
+the person that streamline deployment process and makes sure everything works.
+
+[6:43:13 PM] Ravin Optional:
+My take:
+
+1. Will love the developer to be able to do testing, development, and prototyping without thinking about servers and infrastructure.
+2. Talk to developer and understand how they write code, experiment and test it. Improve the process of deploying applications
+3. Not just creates VMs but also do release management.
+4. Dreams in the night that developers never have to speak to operations.
+ Holy grail.
+5. Doesn't hate developers and think they are just monkeys who only know how to deploy fragile code.
+6. Do the work that normally ops are intended to do(Make sure infra works.)
+
+[7:23:53 PM] Sharuzzaman Ahmat Raslan:
+> Chee Leong Chow
+> if I use php script, does that count as scripting?
+yes
+> Choon-Siang (@Jeffrey04) Lai
+> bash may be better but i am not good in it, if i need to get thi
+scripting does not mean just bash. I have seen people script with perl, python and ruby. but bash is already there in the system, so you do not need to bring external tool
+> Chee Leong Chow
+> if I can only write c, can't I use c to do scripting work? :(
+if you need to compile, that is not scripting
+
+[8:03:09 PM] Kamal:
+http://www.opsschool.org/en/latest/
+edited 
+[8:35:43 PM] Ravin Optional:
+> Kamal
+>  http://www.opsschool.org/en/latest/
+When i took HCNA and LPIC, most of this topics do get covered. But stuffs like planning, architecture, provisioning rasanya tak deh. Someone took the time to create this, pretty awesome.
+[8:38:47 PM] MMM:
+Today I was experimenting with edge detection in OpenCV. The first line of code in the sample I copied did a resize which I ignored of course. But it turns out that Edge detection doesn't work without that resize. I wonder why.
+edited 
+[8:45:01 PM] Ang ChinHan:
+Different dpi or related. e.g. if you have too high of a res, it takes 10 pixels gradient before you traverse from one to another.
+[8:49:07 PM] MMM:
+The resize makes the image smaller, you would think intuitively that more data would help a computer vision problem
+ But. I guess it makes it noisier
+ @angch remember you once said that machine vision is more accessible than people think, I am a believer now
+
+[9:07:07 PM] Sharuzzaman Ahmat Raslan:
+> Kamal
+>  http://www.opsschool.org/en/latest/
+nice documentation
+
+--- Thursday, July 6, 2017 ---
+
+[8:33:03 AM] Kamal:
+Can anyone educate me on the certification program like lpic ? I want our devs to have more fine grasp of the operational side and thinking maybe a more formal course is better way to instill the mindset. All this while I have been trying doing it on my own but not seeing the result that I want. It still end up me who have to do the bulk of the operational work - thinking of the network structure, security issue, capacity planning etc when deploying new services.
+
+Does the exam has specific date or we can always get on it throughout the year ?
+ https://www.linkedin.com/pulse/transforming-devops-culture-sanjeev-malhotra
+ On different topic, I started to like heroku style of deployment and probably will pick this model for our internal use.
+
+[9:33:48 AM] Kamal:
+https://www.youtube.com/watch?v=lx5WQjXLlq8
+
+Few notes:-
+
+Vertical partitioning of objects like users, comments, likes using django multible db support.
+Logical shards using postgresql schemas - hard to implement in django. End up implementing their own ORM. Only used for Likes.
+Sharded unique id - timestamp + shard id + sequence
+Justin Bieber (early adopter of IG) started posing problem to them - in early days dev have to remember justin user id and make sure it's shard get it's own physical server.
+
+That's all for now (1/4 of the video).
+YouTube
+Carl Meyer about Django @ Instagram at Django: Under The Hood 2016
+Slides: https://speakerdeck.com/carljm/instagram-under-the-hood Django: Under The Hood: http://djangounderthehood.com/ Django: Under The Hood is an annual Dj...
+[Video]
+
+[9:50:58 AM] Hassan odin88 Java/.Net/PHP Developer:
+https://spring.io/blog/2017/07/05/introducing-spring-cloud-function
+
+spring.io
+Introducing Spring Cloud Function
+Spring Cloud Function is a new project with the following high-level goals:
+
+Promote the implementation of business logic via functions. 
+Decouple...
+
+[9:53:33 AM] Ahmad Syazwan:
+> Kamal
+> On different topic, I started to like heroku style of deployment
+Weren't you really against? What changed?
+
+[10:07:21 AM] Kamal:
+@asyazwan maybe I still reserve on having git as specific transport mechanisme to move the app artifact around. And the push vs pull model. But what I like about heroku are more on the higher level concept:-
+
+1. heroku create xxxx - provisioning deployment environment.
+2. Procfile - as high level definition what's running.
+3. heroku config:set - for config management
+4. heroku scale - scaling up/down resource
+
+[10:09:44 AM] Sharuzzaman Ahmat Raslan:
+> Kamal
+> Can anyone educate me on the certification program like lpic ? I
+certification will not help your dev to do ops
+edited 
+[10:10:50 AM] Ravin Optional:
+> Kamal
+> Can anyone educate me on the certification program like lpic ? I
+My experience is to take the cert you dont have to take a official course. To obtain the cert  you just need to pass a computer based exam(multiple choice question + cloze question). What i had was going trough a fast track, the trainer incidentally was a cto guy and ops expert, he literaly knew linux inside out. He gave option, folks who want to just pass the exam can just focus on doing the example exam question and folks who want to have actual hands on experience can go through hands on lab. Most folks just wanted to pass the exam, and didnt give a shit about hands on.
+
+[10:13:22 AM] Kamal:
+@mynameisnotjackiechan I think I'm more interested on the hands-on.
+ Can you share the training agency ?
+
+[10:15:24 AM] Ravin Optional:
+[Photo]
+edited 
+
+> Ravin Optional
+>  Photo
+Afterwards the fast track(trainer had his own slide). I literally just sad down on the computer and tried every single command on each page until the end of the book. Literally took 24 hours without sleep and then went to the exam like a zombie.
+edited 
+> Kamal
+> Can you share the training agency ?
+I dont know actually. I got it for free
+
+[10:16:48 AM] Kamal:
+Did you pass the exam, or falling asleep ? :joy:
+
+[10:18:26 AM] Ravin Optional:
+> Kamal
+> Did you pass the exam, or falling asleep ? :joy:
+One of the top score in my class.(Everything was still fresh on my mind, or you can say dizzy, i'm biased)
+
+[10:20:39 AM] Syafiq Faiz:
+> Kamal
+> Did you pass the exam, or falling asleep ? :joy:
+lol
+
+[10:29:52 AM] Ravin Optional:
+In second thoughts, I should renew for lpic2. In case i get feed up of software development go back to ops.
+edited 
+[10:30:59 AM] Ahmad Syazwan:
+At my current job there's someone who moved to sysadmin team from.... marketing team! (his degree was Engineering)
+
+[10:31:02 AM] Chee Leong Chow:
+is there a distinction nowadays?
+
+[11:06:54 AM] Kamal:
+@yasaikun if you aim to have clear separation of roles and divisional of labour within your org. DevOps (and sre) phillosophy suggest that devs get involved 20% in ops role, while Ops also involved 20% in devs role.
+
+[11:29:15 AM] Sharuzzaman Ahmat Raslan:
+> Ravin Optional
+> One of the top score in my class.(Everything was still fresh on
+do you still remember what you learn?
+edited 
+[11:38:18 AM] Ravin Optional:
+Ya. I did went for the hands on. The trainer was a nice guy and taught more than we need to know. Time was short can't go in depth of everything, so i resorted to next reasonable method(go through the wholebook). Though now i can't vouch i remember everything, but know how everything comes together.
+
+[11:43:14 AM] Ang ChinHan:
+> Kamal
+> Can anyone educate me on the certification program like lpic ? I
+You can take the LPIC anytime, and I don't think the cert helps that much, just a confirmation that you know Linux. it doesn't cover the *why* of doing certain things, and IMHO, some parts feels too cargo cult (you do it because every one says to do it).
+ Lol, my LPIC-1 will expire soon. 20 Sep 2017.
+
+[11:54:54 AM] Ravin Optional:
+Heh. Mine expiring this year too.
+edited 
+Just to add on top of what angc said. The cert just say you passed the exam. Becoz there are exam banks online that provide dummy exam you can take, if you are lucky enough the exam bank will have prettt much similar questions to your actual exam. My class mates basically did similar thing. So be wary of judging an employee based on the cert alone.
+
+[12:08:03 PM] Sharuzzaman Ahmat Raslan:
+> Ravin Optional
+> Just to add on top of what angc said. The cert just say you pass
+agreed
+ that's why you must have test
+ a lot of people have cert but not knowledge
+
+[12:35:30 PM] Ang ChinHan:
+It might be a long shot, but *I* found https://www.amazon.com/dp/0201563177/ taught me a lot of the basic building blocks. (yes, irony on the book title).
+
+Amazon
+Advanced Programming in the UNIX(R) Environment (Addison-Wesley Professional Com...
+Advanced Programming in the UNIX(R) Environment (Addison-Wesley Professional Computing Series) [W. Richard Stevens] on Amazon.com. *FREE* shipping on...
+ Dated and used old concepts, but it helps in the beginning: https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057
+Amazon.com: UNIX and Linux System Administration Handbook, 4th Edition (85800010...
+[Photo]
+
+[12:41:54 PM] Chee Leong Chow:
+https://www.amazon.com/Windows-Internals-Part-Developer-Reference/dp/0735648735
+
+[12:44:38 PM] Ravin Optional:
+> Ang ChinHan
+>  Dated and used old concepts, but it helps in the beginning: http
+Dont buy this yet! 5th edition coming this august!
+
+[12:45:08 PM] Ang ChinHan:
+Part of the problem also is there are newer stuff now that isn't covered, imho. e.g. systemd and iproute2.
+edited 
+RIP, Evi Nemeth and Richard Stevens. :( Sorry for recommending books by people no longer around.
+
+[12:46:07 PM] Choon-Siang (@Jeffrey04) Lai:
+https://linuxjourney.com/
+ ^ should be good as introductory material
+
+[12:46:50 PM] Ravin Optional:
+> Ang ChinHan
+> Part of the problem also is there are newer stuff now that isn't
+This is the problem. Older linux book references are kindof dated(a lot)
+
+[12:47:21 PM] Ang ChinHan:
+Not only dated, they're deprecated.
+> Choon-Siang (@Jeffrey04) Lai
+> https://linuxjourney.com/
+:+1: I gave it a once over, pretty good! But it's just a start.
+
+[12:49:35 PM] Ravin Optional:
+Yeah. Book publisher are pretty much scamming folks for still selling those books that touch older kernel and stuffs.
+
+[12:55:06 PM] Ang ChinHan:
+FWIW, LPIC-1 is dirt easy. Everyone I bootcamped (and actually attended! I think) for about a week passed it. Just go through the utilities listed, e.g. https://www.lpi.org/our-certifications/exam-101-objectives and make sure you know them.
+
+[1:04:30 PM] Chee Leong Chow:
+> Ravin Optional
+> Yeah. Book publisher are pretty much scamming folks for still se
+people still buying K&R
+
+[1:06:23 PM] Ravin Optional:
+> Chee Leong Chow
+> people still buying K&R
+Iono, i dont do C anymore. You tell me why.
+
+[1:07:47 PM] Ang ChinHan:
+You dereferenced a NULL pointer? https://www.youtube.com/watch?v=bLHL75H_VEM
+YouTube
+You're dereferencing a null pointer!
+Just Bret Hart doing some code review.
+[Video]
+
+[1:08:42 PM] Chee Leong Chow:
+some books are for collection, not to read
+
+[1:09:58 PM] Ravin Optional:
+> Chee Leong Chow
+> some books are for collection, not to read
+Haha. I can relate to this.
+
+[1:10:47 PM] Ang ChinHan:
+I ran out of space for those at home, so I hijacked the office shelves for that purpose, heheh.
+
+[1:12:08 PM] Kamal:
+I missed office bookshelf and created #bookshelf channel in our slack.
+
+[1:21:27 PM] Afif Sohaili:
+what's our slack?
+ could I get an invite
+ ?
+
+[1:22:56 PM] Kamal:
+I mean our company's slack.
+
+[1:23:49 PM] Afif Sohaili:
+ah
+ I thought it's this group
+ okay ;)
+
+[1:24:46 PM] Kamal:
+Telegram has served us fine all these years :)
+
+[1:25:21 PM] Ang ChinHan:
+*shrug* Want more forks? https://engineersmy.herokuapp.com/
+
+[1:27:07 PM] Kamal:
+The only active slack team that I have is the company's account.
+
+[1:32:03 PM] Ahmad Syazwan:
+[Photo]
+ [Photo]
+ among the interesting channels we have
+ [Photo]
+What I hate about Slack now
+ Especially with sysadmins flooding other groups/chans with build msgs and bot msgs
+ 10k gets hit preeeetttyyy fast
+
+[1:35:04 PM] Chee Leong Chow:
+good, so wife can't find howto
+
+[1:35:40 PM] Ang ChinHan:
+The secret is to create a new slack team for every different concern.
+
+[1:36:43 PM] Ahmad Syazwan:
+yeap. I'm just hesitant to suggest that because even I think it's too much hassle
+
+[1:41:11 PM] Ravin Optional:
+Have 80+ slack channel. Feels like I'm doing something terribly wrong.
+
+[2:01:34 PM] Ahmad Syazwan:
+You guys managed Discord before? Really weird design decision. If you're admin or has admin roles then you're forced to be on all channels
+
+[2:12:28 PM] Choon-Siang (@Jeffrey04) Lai:
+> Ravin Optional
+> Have 80+ slack channel. Feels like I'm doing something terribly
+and being active in all of them?
+
+[2:18:01 PM] Ravin Optional:
+> Choon-Siang (@Jeffrey04) Lai
+> and being active in all of them?
+Unfortunely, yes
+
+[2:18:21 PM] Choon-Siang (@Jeffrey04) Lai:
+*salute*
+
+[6:52:07 PM] Kamal:
+https://blog.newrelic.com/2017/06/07/successful-operations-practitioners-habits/
+
+New Relic blog
+8 Habits of Highly Successful Operations Practitioners
+Learn the practices that separate great operations pros from ordinary ones—and we’re not just talking about specific technical skills.
+
+[7:19:56 PM] Ravin Optional:
+> Kamal
+>  https://blog.newrelic.com/2017/06/07/successful-operations-pract
+Heh. OpsDev. Nice word play.
+ Right. I googled the word and seems to be an actual thing.
+> Ravin Optional
+> My take: 1. Will love the developer to be able to do testing, d
+Coicendentally(forgot spelling), regurgitation this.
+
+[7:51:44 PM] Sharuzzaman Ahmat Raslan:
+Australia already moved to NoOps
+
+[7:55:25 PM] Kamal:
+Heh, serverless, @efaisal will hate this.
+
+[8:31:15 PM] Ravin Optional:
+Waiting for ZeroOps, then NegativeOps
+
+[8:33:51 PM] Tokwan:
+Why can't they use other name than serverless. Because there is a server
+
+[8:36:07 PM] E A Faisal:
+> Kamal
+> Heh, serverless, @efaisal will hate this.
+i hate the terminology :stuck_out_tongue_winking_eye:
+[8:36:34 PM] MMM:
+So what do you guys think of ServerLess, is it the future
+
+[8:38:51 PM] Tokwan:
+No. Expensive if you have to run it 24/7 isn't it
+
+[8:41:10 PM] E A Faisal:
+it's a noble idea where devs do what they do best with worrying about ops. but it won't work in all scenario.
+
+[8:41:42 PM] Ravin Optional:
+> Tokwan
+> Why can't they use other name than serverless. Because there is
+Becoz it sounds better than NoServer.
+
+[8:44:27 PM] Ang ChinHan:
+More like JustInTimeServer. Or fork a process and vm on demand, instead of prefork ala apache.
+
+[8:44:43 PM] Ravin Optional:
+https://en.m.wikipedia.org/wiki/Misnomer
+Wikipedia
+β
+A misnomer is a word or term that suggests a meaning that is known to be wrong. Misnomers often arise because something was named long before its corr...
+ I have a favourite misnomer: Chinese checker.
+(clue: nothing to do with china)
+
+[9:01:23 PM] Ahmad Syazwan:
+[Photo]
+
+[9:11:16 PM] Ravin Optional:
+
+> Ahmad Syazwan
+>  Photo
+Its in gods computer.
+ #joke
+
+[9:11:55 PM] Syafiq AZ:
+what do you guys think about quantum computer? https://www.youtube.com/watch?v=60OkanvToFI
+YouTube
+UNBOXING A QUANTUM COMPUTER! – Holy $H!T Ep 19
+Learn more about D-Wave: http://geni.us/9B99IE The coldest place in the known universe is on Earth! It's quantum computing company D-Wave's HQ, and they actu...
+[Video]
+
+[9:20:47 PM] Ravin Optional:
+If quantum computing is here. Wondering why there is no firesail happening in us, europe, and china yet.
+
+[9:40:52 PM] Ravin Optional:
+https://youtu.be/vmEkdBcHBhE
+YouTube
+Deep Dive with D-Wave
+Dan Olds talks with Bo Ewald and Murray Thom of quantum computer manufacturer D-Wave
+[Video]
+edited 
+Tldr;
+The use case are not well known. Three known usage known to work very well on this type of machine
+1. Optimzation
+2. Monte carlo/sampling
+3. (Forgot third)
+
+Most algorithm dont just work on it. You have to take the existing algorithm and map it to the way the machine works(otherwise you still get bad result)
+Working closely with folks like google on better understand the potential of this computer and the problem that can be solved better on it. Initial reasoning is not all algorithm will perform faster on this even after mapping it down to the machine
+
+[9:46:50 PM] Tokwan:
+Based on what I've checked, it's more of a new type of computer, not the one that will make the current one a lot faster
+
+[9:47:17 PM] Ravin Optional:
+> Tokwan
+> Based on what I've checked, it's more of a new type of computer,
+Yup. Your briefing is much shorter
+
+[9:47:52 PM] Tokwan:
+Thanks. I'll buy you a drink next time we meet
+
+[9:58:01 PM] Ang ChinHan:
+tl/dw tl/dr. But based on what I knew before, it's all about working with qubits instead of bits. Your boolean algebra stuff is all useless for this.
+edited 
+Might be quite natural progressiong after all the neural network stuff (matrices and vectors, instead of just integers).
+
+[10:09:53 PM] Syafiq AZ:
+Report: Malaysia's cybersecurity is third best globally - Nation | The Star Online
+http://www.thestar.com.my/news/nation/2017/07/06/malaysia-rank-high-cybersecurity-commitment/
+
+www.thestar.com.my
+Report: Malaysia's cybersecurity is third best globally
+PETALING JAYA: Malaysia is ranked third among 193 countries in terms of its commitment to cybersecurity, according to the Global Cybersecurity Index (GCI) 2017.
+ Let us be proud
+
+[10:25:32 PM] Sharuzzaman Ahmat Raslan:
+> Tokwan
+> Why can't they use other name than serverless. Because there is
+there is no server from customer point of view
+> Tokwan
+> No. Expensive if you have to run it 24/7 isn't it
+why expensive? vendor only charge when the code run only
+> Ravin Optional
+> I have a favourite misnomer: Chinese checker. (clue: nothing to
+mee bandung/sirap bandung have nothing to do with Bandung. Nasi goreng USA have nothing to do with Donald Trump :smiley:
+
+[10:28:23 PM] Ravin Optional:
+> Sharuzzaman Ahmat Raslan
+> mee bandung/sirap bandung have nothing to do with Bandung. Nasi
+I like your style.
+> Sharuzzaman Ahmat Raslan
+> there is no server from customer point of view
+With this logic, the egg on nasi goreng USA should look like donald trump's hair from a particular point of view.
+
+[10:36:31 PM] Sharuzzaman Ahmat Raslan:
+> Ravin Optional
+> With this logic, the egg on nasi goreng USA should look like don
+most probably true :smiley:
+edited 
+[10:41:05 PM] Tokwan:
+> Sharuzzaman Ahmat Raslan
+> there is no server from customer point of view
+Since I'm paying, I am the customer. Me as a developer is using it. When I saw the intro the first time they introduced it, I was pretty excited. My code can finally run without a server? How did they do it? Turns out it's not serverless, I still need a server. I just pay and use it during certain period of time instead of keeping it alive all the time. From my point of view as a developer, I still need a server. Serverless is not the right name for this kind of service. That's all. Haha
+
+[10:44:04 PM] Sharuzzaman Ahmat Raslan:
+> Tokwan
+> Since I'm paying, I am the customer. Me as a developer is using
+for developer, yes they will say there are server involved. for management, they will not see the server, they will see services
+
+[10:45:35 PM] Tokwan:
+Depends on what type of management we're talking about too. If the management are non-dev people, even normal server is just another type of service to them
+
+--- Friday, July 7, 2017 ---
+
+[12:25:33 AM] Kamal:
+For someone that has to deal with servers in the past 20 years, being able to push my website simply to github, commenting provided by disqus, login through google oauth, uploading photos for blog to google drive by just a javascript snippet, that serverless for me.
+
+[9:38:01 AM] Kamal:
+Will you use database trigger, given certain situation, or you would avoid it at all cost ?
+
+[9:43:20 AM] Chee Leong Chow:
+The serverless means you don't have to write server logic.
+
+[9:44:38 AM] Kamal:
+@yasaikun thanks for compressing my sentence.
+
+[9:48:47 AM] Ang ChinHan:
+I just realized all cgi-bin programs can be converted to serveless easily, in theory.
+
+[9:59:51 AM] Sharuzzaman Ahmat Raslan:
+> Ang ChinHan
+> I just realized all cgi-bin programs can be converted to servele
+yes. aws lambda is just file(s) executed in a container. paramater passed using json
+
+[10:00:35 AM] Ang ChinHan:
+Everything old is new again! ;)
+> Kamal
+> Will you use database trigger, given certain situation, or you w
+Depends, but avoid if possible. ACID with triggers is expensive. You might want to defer them in an external queue. Or at least have the option to. If you started relying on db triggers, moving away from that may be expensive work.
+ At least there's deferrable in pgsql.
+
+[10:06:34 AM] Tokwan:
+My alma matter is still promoting PL/SQL and using database triggers heavily. For JEE stack. I feel like it's kinda irrelevant these days for web app to do that
+
+[10:06:57 AM] Ang ChinHan:
+Wait, deferable just means deferred to when commit is done. Not what you expect.
+[10:14:15 AM] MMM:
+Stored procedures would be more popular if the development experience didn't suck
+
+[10:25:43 AM] Ang ChinHan:
+Stored procedures would be more popular if it scales and not bottlenecked by a single instance's CPU and I/O.
+ Well, at least in pgsql.
+
+[10:27:15 AM] Kamal:
+Up until now, we never think about trigger. Most can be done using basic sql. For example when deducting customer's credits, we log the operation so we always have an audit trail of what get deducted at certain point in time. But now we have an external process, not much we can control that also updating our db. We need a way to have an audit trail of this operation and trigger seem to be the easiest way (other than forking the app and having burden maintaining it going forward).
+
+[10:28:18 AM] Chee Leong Chow:
+> Ang ChinHan
+> Everything old is new again! ;)
+graphql is the new sparql
+ also WSDL is back and alive again
+
+[10:29:41 AM] Kamal:
+> Chee Leong Chow
+> also WSDL is back and alive again
+link ?
+
+[10:29:47 AM] Chee Leong Chow:
+graphql
+
+[10:29:48 AM] Ang ChinHan:
+(half joking) Slap a serverless microservice to interface with your db.
+edited 
+> Kamal
+> link ?
+lol. http://grpc.io/docs/guides/concepts.html#service-definition
+
+www.grpc.io
+grpc / gRPC Concepts
+A high performance, open source, general RPC framework that puts mobile and HTTP/2 first.
+
+[10:31:21 AM] Kamal:
+> Ang ChinHan
+> (half joking) Slap a serverless microservice to interface with y
+the way the external app update our db is for us to give it the db credentials, which table and column, and the column identifier. That's all.
+
+[10:31:38 AM] Ang ChinHan:
+Compare and constrast https://www.w3.org/TR/wsdl#_rpcexample It's just different syntatic sugar.
+> Kamal
+> the way the external app update our db is for us to give it the
+This is a start towards https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/ IMHO.
+
+reddit
+Accidentally destroyed production database... • r/cscareerquestions
+Today was my first day on the job as a Junior Software Developer and was my first non-internship position after university. Unfortunately i...
+
+[10:33:20 AM] Kamal:
+I kind of like wsdl actually (when it works).
+
+$server = new Server(wsdl_url)
+$server->run()
+
+
+Now I have the server ready to service request !
+
+[10:33:56 AM] Chee Leong Chow:
+WSDL is fine, services associated with it don't.
+
+[10:35:00 AM] Ang ChinHan:
+
+ s := grpc.NewServer()
+ pb.RegisterGreeterServer(s, &server{})
+ // Register reflection service on gRPC server.
+ reflection.Register(s)
+ if err := s.Serve(lis); err != nil {
+  log.Fatalf("failed to serve: %v", err)
+ }
+
+[10:35:02 AM] Kamal:
+> Ang ChinHan
+>  This is a start towards https://www.reddit.com/r/cscareerquestio
+aah, damn. I'm creating a ticket to address this. Thanks for reminding.
+[11:00:11 AM] MMM:
+https://cloud.google.com/about/locations/
+Google Cloud Platform
+Global Locations - Regions & Zones  |  Google Cloud Platform
+Google Cloud Platform offers regions across the world to provide customers with global coverage, low cost, low latency, and application availability.
+ btw there's no reason why you can't send a GraphQL query via GRPC
+ Google Cloud is available in Singapore now
+
+[11:01:17 AM] Michael Liew:
+\0/ finally!
+
+[11:12:00 AM] Chee Leong Chow:
+let's get some free credits from them
+ e-begging
+
+[11:43:38 AM] Kamal:
+> MMM
+>  https://cloud.google.com/about/locations/
+Amazon Lightsail too (since May actually but I missed the news).
+
+[1:09:53 PM] Ang ChinHan:
+Hey, http://docs.aws.amazon.com/redshift/latest/dg/c_unsupported-postgresql-features.html Better not touch stored procedures if you ever wanna use redshift.
+Amazon
+Unsupported PostgreSQL Features - Amazon Redshift
+Lists the PostgreSQL features that are not supported in Amazon Redshift.
+ Dang, all my favourite pgsql toys are not there.
+
+[1:11:21 PM] Syafiq AZ:
+Redshift is amazing. Just dont treat to use commercially, production
+
+[1:11:55 PM] Ang ChinHan:
+At this rate, I'll continure playing with my toy cockroachdb. Not for prod as well....
+
+[1:13:05 PM] Chee Leong Chow via @gif:
+[GIF]
+
+
+[1:14:42 PM] Syafiq AZ:
+You can use RDS for production. Its really2 fast.
+
+[1:17:23 PM] Ang ChinHan:
+All different use cases.
+
+[2:08:46 PM] Ahmad Syazwan:
+We use redshift for reporting. Internal use for the BI team
+
+[2:09:37 PM] Syafiq AZ:
+^yes
+ For reporting, you use Metabase?
+edited 
+[2:15:55 PM] Ahmad Syazwan:
+On the BI side they use Excel and Tableau both getting data from materialized view produced by postgres cache (RDS) with data from redshift
+ What client you use for redshift / Postgres?
+edited 
+[2:19:20 PM] Syafiq AZ:
+> Ahmad Syazwan
+> On the BI side they use Excel and Tableau both getting data from
+Tableau... that is expensive. Haha. Last time I propose, the price was 8k-9k after convert. 
+
+We use metabase. Its free and open source. Data we generated to materialize view as well.
+
+[2:21:58 PM] Ahmad Syazwan:
+Fortunately for us cost is non-issue... ish. Maybe once you can convince the higher ups it's fine to invest on IT as well instead of just marketing
+
+[2:22:34 PM] Syafiq AZ:
+Fortunately for u... do u have any openings?
+
+[2:24:05 PM] Ahmad Syazwan:
+We're always hiring from what I hear. :joy:
+ The ads have been running over 2 years I was told
+
+[2:24:32 PM] Syafiq AZ:
+lolz
+ Got link?
+
+[2:27:28 PM] Ahmad Syazwan:
+What happened to jobs.stackoverflow.com ?
+[3:10:28 PM] MMM:
+For those who want to bring back the 'server' in server-less - http://open.iron.io/
+
+[5:10:03 PM] Choon-Siang (@Jeffrey04) Lai:
+> Ahmad Syazwan
+> What happened to jobs.stackoverflow.com ?
+just realized it is different from https://stackoverflow.com/jobs
+
+Stack Overflow
+Stack Overflow Jobs
+Your dream job awaits at Stack Overflow. Browse thousands of jobs by salary & tech stack. Personalized job matches. No recruiter spam. Your privacy, guaranteed.
+
+[5:20:46 PM] Ahmad Syazwan:
+> Choon-Siang (@Jeffrey04) Lai
+>  just realized it is different from https://stackoverflow.com/job
+Thanks, this is what I was trying to find
+[10:19:31 PM] MMM:
+> Kamal
+> Amazon Lightsail too (since May actually but I missed the news).
+Time to move away from Linode :heart::heart::heart:
+
+--- Saturday, July 8, 2017 ---
+
+[7:55:35 AM] Kamal:
+MMM not using it extensively yet but here's some notes:-
+
+1. The direct console is great. This is basically what EC2 should have, instead of web ssh console. You need this console to verify the ssh key fingerprint before connecting through ssh first time.
+2. There's simple firewall manager. Only port 22 and 80 opened by default. Click Manage from the instance menu to get into the firewall manager.
+ [Photo]
+Direct console
+
+[8:12:41 AM] Ahmad Syazwan:
+How is direct console done if not via web like DO?
+
+[9:07:38 AM] Syafiq AZ:
+pay per hour (AWS) vs pay per minute (Google Cloud) 
+
+https://medium.com/@robaboukhalil/a-tale-of-two-clouds-amazon-vs-google-4f2520516a38
+Medium
+A Tale of Two Clouds: Amazon vs. Google
+In recent years, AWS has become the de facto standard cloud provider. As we’ll see in this article, it may be worth jumping off the…
+
+[9:13:53 AM] Kamal:
+> Ahmad Syazwan
+> How is direct console done if not via web like DO?
+DO is direct console too iirc. But ec2 web console is just an ssh client, no different that ssh command on your laptop.
+ of course all exposed through the web. The different is that direct console mean the web app connected through the instance tty interface directly, while ec2 web console is implemented as ssh client, connected to the ssh port.
+edited 
+You need an out of band channel to verify the ssh fingerprint when you ssh for the first time.
+
+[9:23:17 AM] Ahmad Syazwan:
+Ah, right
+
+--- Monday, July 10, 2017 ---
+
+[12:10:10 PM] TC Wu:
+hi guys, TC here, i am looking for a web dev freelancer for HelloGold, the startup that I am currently working in. The gig will last 1 month, free to convert to FTE if they are happy to continue with us. We need someone with wordpress skills, and some familiarity with Rails. We have an existing Wordpress site that needs someone to update designs, and we have an incoming rails website as well that needs some TLC. PM me for further information or drop me an email at tc@hellogold.com
+
+[1:14:11 PM] Shafiq Mustapa:
+hi tc, i'm developer of gold price malaysia in google play store. nice work you got there?
+ nice work you got there.
+
+[5:23:05 PM] Hassan odin88 Java/.Net/PHP Developer:
+> TC Wu
+> hi guys, TC here, i am looking for a web dev freelancer for Hell
+similar concept like Dinarpal ? https://dinarpal.com/
+Dinarpal
+A time is certainly coming over mankind in which there will be nothing [left] which will be of use save a dinar and a dirham. (Musnad of Imam Ahmad ibn Hanbal)
+
+[5:25:23 PM] TC Wu:
+@odinhassan nope
+ nothing like dinarpal or dinardirham
+ This is taken from our website, but it pretty clearly explains what we do
+ At HelloGold we believe that Gold protects your savings, so we’ve made it our mission that everyone should have access to it in an affordable and secure way. HelloGold is a start-up that creates simple and accessible Gold products for everyone. Founded in 2015 and headquartered in Kuala Lumpur, Malaysia, HelloGold built the world’s first Shariah compliant gold digital application that changes the way you buy and sell gold.
+
+We are committed to good corporate governance. Our platform features state-of-the art online security and is supported by fully audited processes to guarantee proper ownership of the physical gold. Our dedicated team of seasoned professionals have come together from the gold industry, financial services, technology and digital user experience, all with the aim of making Gold available to everyone in Asia.
+ https://www.hellogold.com/
+HelloGold - Gold In Your Pocket!
+[Photo]
+
+[5:30:30 PM] Syafiq Faiz:
+> TC Wu
+>  https://www.hellogold.com/
+I only see 2% management fee, is there any other fee charge?
+ ie, transaction fee
+
+[5:31:06 PM] TC Wu:
+@syafiqfaiz https://help.hellogold.com/en/category/fees/
+
+[5:31:35 PM] Syafiq Faiz:
+> TC Wu
+> @syafiqfaiz https://help.hellogold.com/en/category/fees/
+:v:
+
+[5:32:16 PM] TC Wu:
+check us out, we're probably the most convenient way to purchase fully allocated gold
+
+[5:43:29 PM] Kamal:
+I suggest adding specific faq on how this is syariah compliant (since you claim that).
+
+[5:44:51 PM] TC Wu:
+@mkamalmustafa https://help.hellogold.com/en/how-is-hellogold-shariah-compliant/
+
+[5:47:03 PM] Kamal:
+hmm, not visible from here - https://help.hellogold.com/en/ ... or just me ?
+ it did came out when searching for keyword "shariah" though.
+
+[5:49:14 PM] TC Wu:
+yeah
+ i am using chrome
+ i clicked on the link it was showing
+ can you tell me what browser you're on
+ maybe its a browser thing, will check
+
+[5:50:59 PM] Kamal:
+chrome too.
+ [Photo]
+ [Photo]
+ [Photo]
+
+[5:55:07 PM] Ang ChinHan:
+test unicode http://aaoifi.com/معيار-أيوفي-الشـرعي-رقم-٥٧-الذهب-وضواب-2/?lang=en
+
+[5:55:47 PM] TC Wu:
+yeap working
+ i can click on it
+ but i am running dual languages on my machine though :laughing:
+ @angch
+ anyway
+
+[5:56:27 PM] Ang ChinHan:
+Ah, the browser auto changes to hex encoding when copy/paste. Interesting.
+
+[5:57:01 PM] TC Wu:
+@mkamalmustafa if you type shariah into the search and this article comes out,  "How is HelloGold Shariah Compliant?", then it is the correct one
+
+[5:57:30 PM] Ang ChinHan:
+Just that wp(?) didn't show all the faq on the index page, as it was several questions down.
+edited 
+Bump it to top5 maybe? (for the about-hellogold category, dunno. /me wordpress noob)
+edited 
+[6:01:48 PM] Ravin Optional:
+Maybe it is looking in the post content, its doesnt look in meta fields. Thats the default behaviour(just guessing)
+
+[6:10:23 PM] Tokwan:
+> TC Wu
+> At HelloGold we believe that Gold protects your savings, so we’v
+At a glance, I still don't see the differences between this and Dinarpal.
+
+Disclaimer: My friends are in Dinarpal
+
+[6:11:08 PM] TC Wu:
+@alienxp03 my bad, I confused dinarpal with dinardirham, on second read, they are different companies.
+ i think there are similarities between dinarpal and us
+
+[6:29:46 PM] TC Wu:
+i am going to go create todo cards for the wordpress guy @angch @mkamalmustafa @mynameisnotjackiechan
+
+[6:31:09 PM] Ang ChinHan:
+> TC Wu
+> i think there are similarities between dinarpal and us
+🍿:joy:
+
+[6:58:46 PM] Kamal:
+http://firstround.com/review/how-i-structured-engineering-teams-at-linkedin-and-admob-for-success/
+
+Firstround
+How I Structured Engineering Teams at LinkedIn and AdMob for Success
+LinkedIn’s SVP of Engineering shares the team structure and mindset that clinched its $2.5B IPO.
+
+[7:01:11 PM] adzmely mansor:
+[Photo]
+ the best option so far for me, to cut off streamyx....
+ rm138/month 20M 4G Speed  = 2M Streamyx/Month
+ 65G/month vs Unlimited
+ sorry guys off topic... so exited finally i have a great plan for me to runnaway from TM/Streamyx... huhu
+
+[7:05:57 PM] Ang ChinHan:
+Give a review of it a month from now.
+
+[7:15:01 PM] Kamal:
+have to settle with Digi (RM100/month - 60GB quota) + webe (rm 56/month - 30GB quota). So far it's a good combination - digi is slow but stable. webe is faster, can use on movies etc.
+
+[7:16:39 PM] Syafiq AZ:
+Using Digi Infinite. Unlimited. 
+
+Digi is slow? Seems fast for me.
+[7:24:07 PM] hizam mohd:
+location location
+
+[7:28:43 PM] Kamal:
+at the same time, I got digi connection now at kampung, 3mbps, never been happier, thanks to the new tower they set up.  Before this, the closest tower was 10KM away.
+
+[7:28:56 PM] adzmely mansor:
+U need to make sure ur telco pole is just in front of your house ... as for me it just less than 50m ...
+ no tether for webe ...
+
+[7:29:56 PM] Kamal:
+webe broadband, not webe phone. It using huawei mifi.
+
+[7:30:32 PM] E A Faisal:
+how's huawei mifi?
+
+[7:32:14 PM] Kamal:
+[Photo]
+[8:55:30 PM] Izzat Zainol:
+
+> Kamal
+>  Photo
+Using the exact model. The battery too small though. Not a good option when on the move
+> Kamal
+> have to settle with Digi (RM100/month - 60GB quota) + webe (rm 5
+Webe broadband has a new plan. RM99 for 60GB. You can cancel your digi now :sweat_smile:
+
+[9:05:35 PM] Kamal:
+Hello World: Sharing Internet over Long Range Wireless Serial Connection 433Mhz
+http://emmanuelgranatello.blogspot.my/2017/06/sharing-internet-over-long-range.html?m=1
+
+emmanuelgranatello.blogspot.co.uk
+Sharing Internet over Long Range Wireless Serial Connection 433Mhz
+I needed to connect a Raspberry Pi Zero to a Linux Server hosted at my house (1km away). I couldn't use WiFi for problems of signal range,...
+ Wondering if lora device also suitable for the same problem.
+> Izzat Zainol
+> Webe broadband has a new plan. RM99 for 60GB. You can cancel you
+Ughh. I still need backup line though.
+ Webe sometime problematic on ssh. Have some latency.
+
+[9:10:05 PM] Michael Liew:
+LoRA device is not suitable to transfer large bandwidth data
+
+[9:12:53 PM] Ang ChinHan:
+? webe is lora?
+
+[9:14:37 PM] Kamal:
+> Ang ChinHan
+> ? webe is lora?
+2 different topics, sorry.
+
+[9:14:58 PM] Ang ChinHan:
+Ah sorry, missed that.
+[9:16:23 PM] MMM:
+Is now the right time to adopt LORA?
+
+[9:18:15 PM] Ang ChinHan:
+Just a means to an end. Only suitable for IoT imho.
+
+[9:31:32 PM] Kamal:
+> Michael Liew
+> LoRA device is not suitable to transfer large bandwidth data
+aah, ok. It was mentioned in the comment that the 433Mhz line is suitable to send photos as well.
+
+[9:32:17 PM] Ang ChinHan:
+Wireless Serial Connection = zmodem speed?
+ zmodem is not a speed, @angch
+
+--- Tuesday, July 11, 2017 ---
+
+[7:43:03 AM] Ikhwan Hayat:
+Hi guys,  in corporate settings,  where everybody is using Outlook, are there ways to have better conversation thread in emails?
+ If an emails thread actually have smaller "threads" in them,  it's quite hard to reply on them.
+[7:50:13 AM] Izzat Zainol:
+If you are referring to an archived threads. Usually I would attach the email (.msg file). Instead of replying all. This is good when dealing with forwarding stuff, BKM's and compiled todo's.
+
+[7:53:33 AM] Ikhwan Hayat:
+I meant when your in email discussion,  like when the OP has multiple issues waiting for replies in one email.  Then you'll go "Kindly read my replies below" then u put your replies in between quoting the original msg. Then the next person do the same.
+ It would get pretty unmanageable after a while.
+ I know,  better to use Slack for this. But man these people love their Outlooks.
+[7:55:35 AM] Izzat Zainol:
+> Ikhwan Hayat
+> I know, better to use Slack for this. But man these people love
+I think me included.  Attached with outlook :joy:
+
+[7:55:45 AM] Amirul Abu:
+> hizam mohd
+> location location
+just gonna say that :joy:
+
+[7:56:03 AM] Kamal:
+Outlook does has threaded and conversation views, right ?
+
+[7:56:59 AM] Amirul Abu:
+> Kamal
+> Outlook does has threaded and conversation views, right ?
+nope. thats gmail
+[7:57:03 AM] Izzat Zainol:
+Ahh i see. Well there is no better way then replying to that person specifically in a single email.
+
+[7:58:06 AM] Kamal:
+> Amirul Abu
+> nope. thats gmail
+gmail only has conversation views, not threaded.
+[7:58:06 AM] Izzat Zainol:
+> Kamal
+> Outlook does has threaded and conversation views, right ?
+Threaded no. Conversation views yes. You can sort the email under view settings
+
+[7:58:41 AM] Sharuzzaman Ahmat Raslan:
+> Ikhwan Hayat
+> I meant when your in email discussion, like when the OP has mul
+when replying to customer, always summarize previous response, then add your response. I usually did not reply in-line. if customer want detail, they can dig back their email
+ when I work in Shell last time, my email will always contain 3 part, past action, present action and future action. past action summarize what I or other engineer have done, current action is the action I will apply or have applied, and future action is option given to customer how they want the problem to move forward, and also hint to other engineer if they take over my case. technical customer really like this flow
+
+[8:12:17 AM] Ikhwan Hayat:
+> Sharuzzaman Ahmat Raslan
+> when replying to customer, always summarize previous response, t
+Sounds tedious.  But I think this is good.
+[8:14:02 AM] hizam mohd:
+practical for a place that gets a gazillion emails every hour
+
+[8:14:40 AM] Sharuzzaman Ahmat Raslan:
+> hizam mohd
+> practical for a place that gets a gazillion emails every hour
+yes. last time we got nearly 200 email per day
+ 200 including reply to tickets
+[8:16:51 AM] hizam mohd:
+havent reached 200 emails working 6 months here yet. :joy::joy:
+
+[8:20:02 AM] Ikhwan Hayat:
+Is there any way where you can still work in an email software,  but in the same time you can view the discussion in a structured way in some web app or something.
+ Like issue trackers where you can reply and receive reply in email,  but you can go to the app to view them.
+ But unlike issue trackers which is single thread, I want multithread.
+
+[8:22:18 AM] Sharuzzaman Ahmat Raslan:
+> Ikhwan Hayat
+> But unlike issue trackers which is single thread, I want multith
+cc all email to internal mailing list. then use the mailing list web view
+ mailman have threaded view
+
+[8:25:09 AM] Kamal:
+> Ikhwan Hayat
+> Is there any way where you can still work in an email software,
+Use client that has threaded views ?
+
+[8:28:43 AM] Ikhwan Hayat:
+> Sharuzzaman Ahmat Raslan
+> cc all email to internal mailing list. then use the mailing list
+Mmm will look into this.
+> Kamal
+> Use client that has threaded views ?
+Is there any? I've been using Gmail only nowadays.
+
+[8:30:50 AM] Kamal:
+Mutt :grin:
+
+[8:32:13 AM] Ikhwan Hayat:
+:sweat_smile:
+
+[8:33:01 AM] Kamal:
+Thunderbird also has threaded views.
+
+[8:34:16 AM] Sharuzzaman Ahmat Raslan:
+> Kamal
+> Thunderbird also has threaded views.
+:+1:
+
+[9:23:42 AM] Kamal:
+Anyone going to google cloud onboard today ?
+
+[9:24:05 AM] Shafiq Mustapa:
+not me
+
+[9:34:42 AM] Ravin Optional:
+> Shafiq Mustapa
+> not me
+Need the universe set of all folks of going and not going, so i can deduct the folks who are going by negating against the set of folks not going.
+
+[9:47:46 AM] Syafiq AZ:
+> Kamal
+> Anyone going to google cloud onboard today ?
+Me
+
+[9:48:58 AM] Kamal:
+@SyafiqAZ great ! do give us some updates.
+
+[9:58:13 AM] Syafiq AZ:
+[Photo]
+
+[9:59:07 AM] Irfan Radzi:
+@od3n87 and Nazrin over there as well
+
+[10:00:38 AM] Syafiq AZ:
+[Photo]
+ [Photo]
+ [Photo]
+ [Photo]
+ [Photo]
+ [Photo]
+ Will share with u @mkamalmustafa when we meet next time
+
+[10:02:34 AM] Kamal:
+the content look great.
+> Syafiq AZ
+> Will share with u @mkamalmustafa when we meet next time
+boleh buat practical kubernetes session nanti.
+
+[10:07:39 AM] Ravin Optional:
+
+> Syafiq AZ
+>  Photo
+I wish the docs just say "service accounts" are just oauth1. Instead i have to bang my head against the docs for a few hour to figure that out myself. Dang docs.
+
+[11:25:45 AM] Syafiq AZ:
+https://landing.google.com/sre/book.html
+ ^recommended by current speaker; Jasen Baker
+
+[11:26:31 AM] Kamal:
+We talked about SRE a couple of time here.
+
+[11:26:53 AM] Syafiq AZ:
+Research at Google
+https://research.google.com/
+> Kamal
+> We talked about SRE a couple of time here.
+Maybe I miss out the discussion
+
+[11:28:22 AM] Kamal:
+[Photo]
+Just search "sre"
+> Ang ChinHan
+> *shrug* All I can say is that we learned a lot from Google SRE a
+This.
+
+[11:31:07 AM] Syafiq AZ:
+Hah. Coz I dont know SRE that time. :sweat_smile:
+
+[11:44:22 AM] Chee Leong Chow:
+SRE either you agree or disagree
+
+[11:55:31 AM] Syafiq AZ:
+[Photo]
+ Google trying to make GCP sound cool
+
+[12:04:33 PM] Chee Leong Chow:
+wololo
+
+[12:05:13 PM] Syafiq AZ:
+Apigy could possibly replacing Firebase
+
+[1:14:34 PM] Ang ChinHan:
+> Syafiq AZ
+> Apigy could possibly replacing Firebase
+How so?
+edited 
+[1:17:06 PM] Syafiq AZ:
+According to the speaker, its still "cloudy". But it could replace Firebase because Apigy is powerful(according to what he say lah). . So Im guessing that his own opinion. Not google.
+
+[1:21:43 PM] Ang ChinHan:
+Hmm, ok. Haven't dived into firebase to make an opinion of it.
+
+[1:24:59 PM] Syafiq AZ:
+Pokémon GO with Edward Wu, Director of Software Engineering at Niantic | Google Cloud Platform Podcast
+https://www.gcppodcast.com/post/episode-57-pokemon-go-with-edward-wu/
+
+Google Cloud Platform Podcast
+Pokémon GO with Edward Wu, Director of Software Engineering at Niantic
+We're back! And we're bringing a seriously cool interview about Pokémon Go with Edward Wu, Director of Software Engineering at Niantic.
+
+[1:25:41 PM] Kamal:
+so apigy also a database service ?
+
+[1:27:07 PM] Syafiq AZ:
+According to the speaker, Pokemon Go interview is interesting where Google handle the infra, and the company of Pokemon Go did not expect to have 20x visitor (expected 10x).
+> Kamal
+> so apigy also a database service ?
+Im not sure. I think I miss out when he explain about Apigy
+
+[1:28:10 PM] Ang ChinHan:
+kubectl scale statefulsets pokemon-go --replicas=2000 ?
+
+[1:28:12 PM] Kamal:
+It's apigee, apigy is something else.
+ among it's product is API Gateway service, which similar to AWS API Gateway, or Kong.
+
+[1:29:05 PM] Ang ChinHan:
+(assuming that's a statefulset, not a replicaset)
+
+[1:29:57 PM] Syafiq AZ:
+> Ang ChinHan
+> kubectl scale statefulsets pokemon-go --replicas=2000 ?
+Listen to the podcast...
+edited 
+[1:30:03 PM] Ang ChinHan:
+tl/dl. got transcript?
+edited 
+[1:30:40 PM] Syafiq AZ:
+You didnt click. Got transcript in the link
+
+[1:31:39 PM] Kamal:
+the next question, anyone has start using api gateway when rolling up API services ?
+ or still roll your own solution ?
+
+[1:32:23 PM] Ang ChinHan:
+I scrubbed through. Not much new info from the old article: https://cloudplatform.googleblog.com/2016/09/bringing-Pokemon-GO-to-life-on-Google-Cloud.html
+
+Google Cloud Platform Blog
+Bringing Pokémon GO to life on Google Cloud
+Posted by Luke Stone, Director of Customer Reliability Engineering Throughout my career as an engineer, I’ve had a hand in numerous produ...
+ tl/dr: kubectl, and they had to fix issues with it, along with writing/deploying a better load balancer. The default kube ingress was... pretty dumb, iirc.
+ Key numbers: "tens of thousands of cores  for Niantic’s Container Engine cluster."
+ And probably not statefulsets, since they used https://cloud.google.com/datastore/
+Google Cloud Platform
+Datastore - NoSQL Schemaless Database  |  Google Cloud Platform
+Cloud Datastore is a highly-scalable NoSQL database for your web and mobile applications.
+
+[1:37:25 PM] Syafiq AZ:
+One of google roadmap for GCP is to create regional currency. Right now the currency using is usd. So if a country economy crash, the price wont fluctuate too much.
+
+[1:38:14 PM] Kamal:
+> Syafiq AZ
+> One of google roadmap for GCP is to create regional currency. Ri
+This sound great.
+
+[1:39:31 PM] Ang ChinHan:
+> Kamal
+> or still roll your own solution ?
+FWIW, we're *looking* at https://tyk.io/ The next time you see me rant and whinge about it, you know we started using it.
+
+Tyk API Gateway and API Management
+Tyk Open Source API Gateway, API Management Platform, Developer Portal and Analy...
+Tyk - Open Source API Gateway, API Management Platform, Developer Portal and Analytics - Tyk
+
+[1:42:03 PM] Syafiq AZ:
+[Photo]
+ [Photo]
+ The image isnt sharp.
+
+[1:44:11 PM] Ang ChinHan:
+> Syafiq AZ
+> One of google roadmap for GCP is to create regional currency. Ri
+That'll rock.
+edited 
+[1:45:55 PM] Syafiq AZ:
+One thing i forgot to share.
+
+Google Cloud Certificate is a training not just train on how to use GCP but also train to understand how Cloud work. So when you receive GCC, you have the fundamental so to jump other Cloud Service like AWS, Azure and etc.
+
+[1:49:14 PM] Ang ChinHan:
+something something er.... GCC can probably translate easily to Linode Linux Virtual Machines (LLVM). I'll show myself out....
+
+[1:51:58 PM] Syafiq AZ:
+[Photo]
+ [Photo]
+ [Photo]
+
+[2:07:32 PM] Ravin Optional:
+
+> Syafiq AZ
+>  Photo
+Why they print out a booklet, instead sharing on slideshare or something. Paid event?
+ I thought we living near 2010 (okay, i'll show myself the door now)
+
+[2:10:16 PM] Ang ChinHan:
+The type of literature is targetted to CIOs (think MBA), not most of us here.
+
+[2:14:54 PM] Ravin Optional:
+> Ang ChinHan
+> The type of literature is targetted to CIOs (think MBA), not mos
+Oh. Apology for my ignorance.
+
+[2:33:40 PM] Chee Leong Chow:
+> Syafiq AZ
+> One of google roadmap for GCP is to create regional currency. Ri
+good for MYR
+
+[2:38:33 PM] Syafiq AZ:
+https://quizlet.com/blog/quizlet-cloud-spanner
+
+Quizlet
+Quizlet Tests Cloud Spanner — The Most Sophisticated Cloud Database
+by Peter Bakkum and Dan Cepeda Like many startups, Quizlet faces a huge challenge in scaling our databases. We use MySQL to power our website, which a...
+
+[2:46:11 PM] Kamal:
+> Ang ChinHan
+> (half joking) Slap a serverless microservice to interface with y
+oh dear, it's real ! http://dev.mysql.com/doc/refman/5.5/en/mysql-proxy.html
+ oh, that's legacy. Should be this - https://dev.mysql.com/doc/mysql-router/2.1/en/
+
+[2:51:22 PM] Ang ChinHan:
+Not quite the same as what I had in mind when I mentioned that. But those proxies/pools/bouncers are pretty common. pgpool, etc.
+ I mistook AWS redshift was a postgresql middleware. That one is not.
+edited 
+[3:12:05 PM] Syafiq AZ:
+Ok. From what the speaker say about Cloud Spanner. Cloud Spanner is the firsr Global Relational Database. Meaning that you wont have regional constraint as other sql in google service(and other cloud service). Example of regional constraint; to access the database, some gcp service require the database to be local region (if service in tokyo, db must be in tokyo), but your database park in other region.
+ However, Cloud Spanner works differently, If I remember correctly from what he say, the query is different
+edited 
+[3:16:26 PM] Ang ChinHan:
+Yup, cloudspanner is the killer datastore. It's the reason I'm eye-ing cockroachdb. Similar ideas.
+
+[3:20:53 PM] Sharuzzaman Ahmat Raslan:
+90 cent per hour per node is expensive
+edited 
+[3:23:08 PM] Ang ChinHan:
+Need to run the atomic clocks in their datacenters for cloud spanner to work as expected.
+
+[3:51:45 PM] Syafiq AZ:
+Kubernates.... not sure if im gonna relate it with docker
+
+[3:52:52 PM] Ang ChinHan:
+It's not mutually exclusive.
+
+[3:57:08 PM] Syafiq AZ:
+
+[Video 1:34] 15.2 MB
+ 
+
+[4:49:01 PM] Syafiq AZ:
+Cloud Vision Explorer
+http://vision-explorer.reactive.ai/#/?_k=s84tiq
+ Try open this in desktop
+edited 
+Left me awwwe
+edited 
+[4:50:02 PM] Ang ChinHan:
+Cat!
+
+[7:52:11 PM] Kamal:
+> Ahmad Syazwan
+> Also convox init only does local operation, to prepare your envi
+Look like convox can be mapped 1:1 to heroku. This look great !
+
+https://convox.com/guide/heroku/
+
+[7:53:39 PM] Ahmad Syazwan:
+:heart:
+
+[7:55:03 PM] Kamal:
+This however a bit turn off - https://convox.com/docs/sqs/
+
+Note: The SQS API does not permit Convox to lock SQS resources down from the public internet. SQS queues will be accessible on the public internet!
+edited 
+[8:02:22 PM] Syafiq AZ:
+I think something similar to sqs from GCP is Sub/Pub
+
+[8:03:22 PM] Kamal:
+This is great overview on convox, terraform and kubernetes, using Discourse as example app to deploy.
+
+https://segment.com/blog/where-is-our-package-manager-for-the-cloud/
+Segment
+Where Is Our “Package Manager for the Cloud?”
+The barrier holding back most open source projects is surprisingly mundane. It’s not test coverage. It’s not performance. It’s not code quality.
+
+[8:03:34 PM] Syafiq AZ:
+> Kamal
+>  This is great overview on convox, terraform and kubernetes, usin
+:+1:
+
+[8:18:36 PM] Kamal:
+@SyafiqAZ segment.com ni look like a great company - https://segment.com/jobs
+
+Segment
+Join the Team
+Come build customer data infrastructure to power the world's companies.
+ lot of cool stuff. This is the last I will share here, the rest you can just dig yourself.
+
+https://segment.com/blog/the-million-dollar-eng-problem/
+Segment
+The Million Dollar Engineering Problem
+For an early startup, using the cloud isn’t even a question these days. No RFPs, provisioning orders, or physical shipments of servers. Just the promi...
+ From reddit:-
+
+A friend of mine was annoyed that a small service he liked was shutting down. He contacted the developer who said that they were shutting it down because the server costs were higher than the money they were making.They were spending 5k a month on AWS crap and claimed it was impossible to get any lower. He helped them consolidate everything onto a single rented dedicated server costing 400 a month. Now the service is profitable, and will stay up. It runs way faster on the single server. It also has required less maintenance after the move too. This kind of shit is everywhere. At this point simply not using AWS is a competitive advantage.
+ after almost 10 years, I'd almost forgot how it feel using the bare metal :joy:
+
+[8:30:53 PM] Ang ChinHan:
+> 5k a month on AWS crap.
+Duh.
+
+>  single rented dedicated server costing 400 a month
+Have fun when the disk(s) start failling and you need to replace it *fast*.
+ That said, reducing infra costs is always possible, esp. if you measure very carefully, and structure things carefully.
+
+[9:51:14 PM] Kamal:
+TIL - https://developer.android.com/topic/instant-apps/index.html
+
+Support for 5.0 would be great.
+Android
+Android Instant Apps | Android Developers
+Get people to your flagship Android experience from links that would otherwise open your mobile web page — like search, social media, messaging, and other deep links — without…
+
+[10:32:41 PM] Afif Sohaili:
+> Kamal
+> From reddit:- A friend of mine was annoyed that a small service
+is the $5k really the cost or did they set up their infra wrongly?
+ can we really save that much by using dedicated servers?
+ was just reading up on terraform this morning. looks nice.
+
+--- Wednesday, July 12, 2017 ---
+
+[8:49:13 AM] Kamal:
+> Afif Sohaili
+> is the $5k really the cost or did they set up their infra wrongl
+easy to get wrong with AWS :grin:
+ http://bsdly.blogspot.my/2017/07/openbsd-and-modern-laptop.html?
+
+bsdly.blogspot.co.uk
+OpenBSD and the modern laptop
+Did you think that OpenBSD is suitable only for firewalls and high-security servers? Think again. Here are my steps to transform a modern m...
+
+[11:20:05 AM] Shafiq Mustapa:
+any reccommendation on laptop. thinking of purchasing lenovo
+ web/mobile/backend
+
+[11:26:54 AM] Ahmad Syazwan:
+at my company devs are given 3 choices. Dell XPS, Thinkpad (I think) or Mac
+
+[11:27:14 AM] Shafiq Mustapa:
+got specific model?
+
+[11:27:21 AM] Ahmad Syazwan:
+not sure what exact models because I picked Mac in a heartbeat :joy:
+ I recommend you try MBP for dev
+ my previous laptops before MBPs were 2 dell xps studios
+ both physically broken at some point
+ never tried thinkpad series...
+
+[11:35:43 AM] Shafiq Mustapa:
+using MBP mid 2012 rite now
+ hahaha
+
+[11:36:02 AM] Ahmad Syazwan:
+oh wow, then why moving away?
+
+[11:36:23 AM] Shafiq Mustapa:
+mine. company want to give 'work' laptop
+
+[11:37:42 AM] Ahmad Syazwan:
+Still, ask for Mac :P
+
+[11:39:19 AM] Ahmad Shah Hafizan Hamidin:
+i use thinkpad x240 for few years. quite nice and reliable. battery last around 5 hours and the extended battery last around 7 to 10 hours. quite light also. downside is the screen is a bit small 12inch. was running linux so never use the additional features on the thinkpad like thumbprint and the hotkeys coz it is tweak for windows.
+edited 
+[12:10:00 PM] Tokwan:
+If I'm working in a totally new startup and they want to give salary + stock options, what is the range I should negotiate for? Especially the stock options, since I never had any experience with them
+
+(cross-posting in other places as well since I'd like to get more input. Hope you don't mind)
+
+[12:12:46 PM] Hassan odin88 Java/.Net/PHP Developer:
+> Tokwan
+> If I'm working in a totally new startup and they want to give sa
+if co founder usually higher
+ if early employee / important role in early stage .. 5% - 10% is already good
+ usually salary a bit less than standard rate and compensate by stock
+ if salary get standard rate and 5-10% stock consider lucky already
+ (based on my experience with my last startup as cto .. but my vested is 5 years .. i left the startup after 1 year .. soo .. that is just a lottery ticket :P )
+
+[12:15:35 PM] Tokwan:
+How less usually? Like for a CTO. Or if you don't mind sharing the figures :D
+
+[12:15:53 PM] Hassan odin88 Java/.Net/PHP Developer:
+i pm u
+ :D
+
+[12:16:22 PM] TC Wu:
+MBP is best although not perfect
+
+[12:16:46 PM] Hassan odin88 Java/.Net/PHP Developer:
+make sure vested period less 3 years .. if more than 3 years dont u ever take it
+ usually let say 10% .. then they said the first 3-5% on the first 3 years etc .. itu ok lagi
+
+[12:17:23 PM] TC Wu:
+yeah
+ best is vest 1st year at least some percentage
+
+[12:17:47 PM] Hassan odin88 Java/.Net/PHP Developer:
+> TC Wu
+> best is vest 1st year at least some percentage
+true but a bit hard to find this deal
+
+[12:17:55 PM] TC Wu:
+yeah
+ try to nego lor
+
+[12:18:03 PM] Hassan odin88 Java/.Net/PHP Developer:
+usually after 2-3 years got some percentage
+
+[12:18:12 PM] TC Wu:
+maybe take slightly less salary or something
+ but it all depends on you
+ and your risk appetite
+
+[12:19:07 PM] Hassan odin88 Java/.Net/PHP Developer:
+btw just take note .. not many startup is going to be unicorn .. so either salary is standard rate or higher stock .. up to u to negotiate .. if u believe the idea wholeheartedly and want to work for the startup or team for long term .. then it is ok to take a bit less salary as long can cover your expenses etc
+
+[12:19:31 PM] TC Wu:
+i think i saw this before on reddit
+ not a formula on what deals to take
+ but a structure on how to think about this
+
+[12:20:12 PM] Tokwan:
+The one I read on Reddit says not a good idea to take by percentage. But some disagree too of course
+
+[12:20:24 PM] TC Wu:
+ah
+ ok
+ so i can explain that actually
+ the good vs bad
+ basically
+ you should know the amount of shares in totality, so you can calculate the pre-money worth of the shares.
+
+[12:22:06 PM] Jun Yi:
+So Discord is written in Erlang: https://blog.discordapp.com/scaling-elixir-f9b8e1e7c29b
+
+Discord Blog
+How Discord Scaled Elixir to 5,000,000 Concurrent Users
+From the beginning, Discord has been an early adopter of Elixir. The Erlang VM was the perfect candidate for the highly concurrent, real…
+
+[12:22:09 PM] TC Wu:
+because % changes with every dilution
+
+[12:23:07 PM] Hassan odin88 Java/.Net/PHP Developer:
+correct
+ percent is 1 think
+ amount of stock / share also 1 thing
+
+[12:23:32 PM] TC Wu:
+and either due to not enough time or maliciousness, the bigger shareholders might neglect to inform you that your % changed and then you kena rude shock, unless you can have a provision to your contract built in where you can dllution protection ( which is highly unlikely ), it is always preferable to have # units of shares
+
+[12:24:10 PM] Hassan odin88 Java/.Net/PHP Developer:
+the more and more investor then ur percentage become smaller .. but the value should be higher ..
+ and also got 2 types of stock right ?
+ i forgot already
+
+[12:24:35 PM] TC Wu:
+The idea is that you should care about: vesting, change of control, termination, tax treatment, etc. I've never seen the total shares outstanding on a plan, grant, or offer letter. You'll see the total available pool on a plan, but that usually comprises 17-20% of outstanding.
+
+[12:24:38 PM] Hassan odin88 Java/.Net/PHP Developer:
+i always see stock options for startup as a bonus .. not a quick scheme to get rich whatsover
+> TC Wu
+> The idea is that you should care about: vesting, change of contr
+correct
+ not just amount
+
+[12:26:58 PM] TC Wu:
+I guess one more thing, and its more for the newer guys in the chat room, you will never own the company
+ Keep your eye on the ball, and not get greedy lar, ok?
+ You want to get rich quick, this is the wrong line of work
+
+[12:27:51 PM] Tokwan:
+That's a really great insight
+
+[12:28:07 PM] Hassan odin88 Java/.Net/PHP Developer:
+[😏 Sticker]
+
+[12:32:55 PM] Tokwan:
+I don't see it as a quick way to get rich too. But I don't want to ask for too high, or for too low too. Seems like quite a lots of things that I should take into consideration
+[12:55:54 PM] MMM:
+TILed https://en.wikipedia.org/wiki/Bitap_algorithm
+Wikipedia
+Bitap algorithm
+The bitap algorithm (also known as the shift-or, shift-and or Baeza-Yates–Gonnet algorithm) is an approximate string matching algorithm. The algorithm...
+
+[1:12:59 PM] Ang ChinHan:
+> MMM
+>  TILed https://en.wikipedia.org/wiki/Bitap_algorithm
+Yay, new to me! Bookmarked for later digestion....
+ Hmm.... gut feeling is that it's not generic enough, or scales to larger dictionaries.
+edited 
+[1:34:16 PM] Ang ChinHan:
+> Jun Yi
+>  So Discord is written in Erlang: https://blog.discordapp.com/sca
+Discord *runs* on ErlangVM. It's writting in Elixir, if I read it correctly. If anyone is wondering, Elixir/Phoenix can use multiserver channles (via phoenix) https://dockyard.com/blog/2016/01/28/running-elixir-and-phoenix-projects-on-a-cluster-of-nodes
+
+Not sure if discord uses that though.
+
+DockYard
+Running Elixir and Phoenix projects on a cluster of nodes - DockYard
+How to use distributed elixir in a few simple steps
+
+[1:35:46 PM] Ahmad Syazwan:
+Discord-py is a pleasure to work with to code discord bot #random
+
+[1:41:32 PM] Ang ChinHan:
+There's some great stuff in the actual article above. It's not just Erlang/Elixir, there's some really amazing stuff they do to scaling.
+[1:57:44 PM] MMM:
+Creative Cloud annual subscription is RM 800 more expensive than it was last year - is there a cheaper way to get this?
+
+[2:31:07 PM] Kamal:
+> Shafiq Mustapa
+> any reccommendation on laptop. thinking of purchasing lenovo
+[Photo]
+Lenovo Ideapad. Probably my choice if can't afford mba
+edited 
+[2:31:50 PM] Syafiq AZ:
+Lenovo build quality is cheap, but long lasted than HP and Dell
+
+[2:31:52 PM] Kamal:
+lenovo ideapad 710s not bad jugak. Harga around 4K. Pernah guna kejap, not as good as macbook air tapi ok lah.
+
+[2:35:20 PM] Ang ChinHan:
+Anecdote. I'm still using my "MacBook Pro (Retina, 13-inch, Late 2013)" for everything. Longest lasting laptop I've used.
+
+[2:53:35 PM] Choon-Siang (@Jeffrey04) Lai:
+^ as long as it doesn't break, apple's after sales service in malaysia sucks
+ hehehe
+
+[3:01:29 PM] Ang ChinHan:
+> Choon-Siang (@Jeffrey04) Lai
+> ^ as long as it doesn't break, apple's after sales service in ma
+Better than Thinkpad's refusal to even acknowledge me. :-/
+ Dunno, all hw support sucks?
+
+[3:02:14 PM] Ikhwan Hayat:
+I think Dell quite good. After sales service bagus. Call then next day technician come.
+
+[3:02:38 PM] Ang ChinHan:
+These days. Back in those days, Dell and Thinkpad just shipped me replaceent parts or service personnel at office.
+
+[3:03:07 PM] Ikhwan Hayat:
+Had bad experience with Lenovo, Acer,  Asus.
+
+[3:04:10 PM] 𖣓🅂🄰🄻🅸🅼🄰🄽𖣓 ( اوبليكس ):
+had bad exp with Acer..
+
+[3:04:20 PM] Ikhwan Hayat:
+Dell XPS looks like a great machine. Keyboard could be better tho.
+[3:40:42 PM] Izzat Zainol:
+My personal preferences would be Lenovo. Too attached with the chicklet keyboard and the red nipple. Can't never go wrong with thinkpad model except the price. freakin expensive 🤣 but company money, just use it lah
+ 1st model i used, T410. sturdy and heavy at the same time. next is x230. small but cant live with the small screen :stuck_out_tongue_winking_eye:. right now comfortably used yoga thinkpad. just nice :+1:🏼
+ but if you looking for budget model you can look lenovo ideapad as @mkamalmustafa  suggested. but 7XX series a bit high end. take a look at 3XX series
+ eg this one - https://www.lazada.com.my/lenovo-310-14ikb-80tu0035mj-red-i5-7200u4gb1tb920mx2gb14fhdw102yrs-onsite-1st-yr-accident-damage-protectioncarry-in-warranty-15392104.html
+
+www.lazada.com.my
+Lenovo IdeaPad 310-14IKB 80TU0035MJ Laptop (Intel Core i5 7th Gen ; 4GB D4 ; 1TB...
+Buy Lenovo IdeaPad 310-14IKB 80TU0035MJ Laptop (Intel Core i5 7th Gen ;
+4GB D4 ; 1TB ; 14” FHD ; W10) Red online at Lazada. Discount prices and promot...
+ i5 kaby lake. FHD screen priced at RM2.1k . good buy :ok_hand:🏼
+
+[3:54:47 PM] Ang ChinHan:
+Fork up for ssd. Worth it.
+
+[3:55:58 PM] Fairuz Sulaiman:
+> Ang ChinHan
+> Fork up for ssd. Worth it.
+Vote for SSD
+
+[3:57:22 PM] Chee Leong Chow:
+SSD for president!
+[4:45:55 PM] Izzat Zainol:
+> Ang ChinHan
+> Fork up for ssd. Worth it.
+Yep. A must!
+
+[4:46:31 PM] TC Wu:
+yeah ssd is worth every cent
+ you don't need too big either
+ 256GB more than enough
+
+[4:57:45 PM] Chee Leong Chow:
+so said bill gates
+
+[4:58:55 PM] Ang ChinHan:
+http://www.catb.org/jargon/html/P/Parkinsons-Law-of-Data.html
+edited 
+[5:00:17 PM] Chee Leong Chow:
+damn it, laws of physics, you have to ruin the party!
+
+[5:02:22 PM] Jun Yi:
+> Ang ChinHan
+>  http://www.catb.org/jargon/html/P/Parkinsons-Law-of-Data.html
+Google Chrome?
+
+[5:18:59 PM] Choon-Siang (@Jeffrey04) Lai:
+> Ang ChinHan
+> Better than Thinkpad's refusal to even acknowledge me. :-/
+that's even worse ):
+
+[5:27:34 PM] Ang ChinHan:
+I might have exagerrated a bit. But they basically keep shunting me to different people until the warranty is up.
+ Apparently DJI also like that.
+
+[5:30:02 PM] Chee Leong Chow:
+sony also like that
+
+[5:30:43 PM] Choon-Siang (@Jeffrey04) Lai:
+luckily my sis's vaio is still working fine
+
+[5:31:41 PM] Chee Leong Chow:
+basically japanese brands
+ less common nowadays, fujitsu also like that
+
+[5:32:34 PM] Ang ChinHan:
+Google support also like that. Actually... what isn't?
+
+[5:33:33 PM] Chee Leong Chow:
+apple is surprisingly fast, provided within warranty
+
+[5:39:42 PM] Choon-Siang (@Jeffrey04) Lai:
+oso after they fail to blame it on u
+
+[5:39:58 PM] Chee Leong Chow:
+yup
+
+[6:13:32 PM] Ang ChinHan:
+TIL. Pretty good alternative to Google Photoscan: https://play.google.com/store/apps/details?id=com.microsoft.office.officelens
+
+Yes, by microsoft. Android.
+Google Play
+Office Lens - Android Apps on Google Play
+Office Lens is a pocket scanner for docs and whiteboard images.
+edited 
+[6:42:20 PM] Jun Yi:
+Just tried it, not quite CamScanner: https://play.google.com/store/apps/details?id=com.intsig.camscanner
+Google Play
+CamScanner -Phone PDF Creator - Android Apps on Google Play
+Scan docs into clear & sharp image/PDF, to send fax, print out or save to cloud
+
+[9:52:10 PM] Syafiq AZ:
+https://www.youtube.com/watch?v=b5xpXecR3LY
+YouTube
+Self-driving cars with Python and TensorFlow update v0.04-v0.06
+Recent changes to our self-driving AI: More waypoint following (gps following) data, fine-tuned controlling by emulating an xbox360 controller's input, and a...
+[Video]
+
+[10:57:05 PM] Tokwan:
+Any good tools to load testing my API servers?
+
+[10:57:50 PM] Alex Hong Pin Tan:
+https://github.com/wg/wrk
+
+GitHub
+wg/wrk
+wrk - Modern HTTP benchmarking tool
+
+[11:04:24 PM] Ang ChinHan:
+> Alex Hong Pin Tan
+>  https://github.com/wg/wrk
+:+1:
+
+[11:07:53 PM] Tokwan:
+Thanks :)
+
+[11:08:12 PM] Alex Hong Pin Tan:
+No problem :)
+
+[11:35:27 PM] Chee Leong Chow:
+Supports Lua scripting too
+
+--- Thursday, July 13, 2017 ---
+
+[6:40:23 AM] Kamal:
+let's encrypt client written in Go - https://github.com/xenolf/lego
+
+GitHub
+xenolf/lego
+lego - Let's Encrypt client and ACME library written in Go
+[9:31:31 AM] Izzat Zainol:
+quick question on kickstart installation redhat/centos. if anyone had an experience setup one before. when you set 1st installation to generate the cfg file it will copied the hdd selection and partition setup right? my question is, if im going to reuse the same cfg file on a different machine with different hdd size, different partition number. how'd it go? can it overwrite the settings?
+
+[9:35:32 AM] Sharuzzaman Ahmat Raslan:
+> Izzat Zainol
+> quick question on kickstart installation redhat/centos. if anyon
+you can script it
+ or request the partition size from central server
+ better use cobbler to manage your machine configuration
+[9:39:37 AM] Izzat Zainol:
+> Sharuzzaman Ahmat Raslan
+> you can script it
+Kickstart module is one of the way to script it
+ Nvm i think im gonna use automatic partition. That would solve the problem
+
+[10:41:05 AM] Kamal:
+Internet of Unnecessary Things (IoUT) - https://freeswitch.org/unnecessary-but-cool-iot-products/
+
+freeswitch.org
+Unnecessary but Cool IoT Products.
+The Internet of Useless things is growing faster than the Internet of Things. To be fair, some of these things are pretty cool at first glance, but if...
+ ... lucky for you, there are multiple brands of this smart diaper. Smart Baby coming soon. :joy:
+
+[12:15:44 PM] Shafiq Mustapa:
+ansible?
+ or if using vm, config the first vm and copy the rest
+
+--- Friday, July 14, 2017 ---
+
+[12:41:33 AM] Syafiq AZ:
+http://thehackernews.com/2017/07/over-14-million-verizon-customers-data.html?m=1
+Over 14 Million Verizon Customers' Data Exposed On Unprotected AWS Server
+Verizon has suffered a data security breach with over 14 million US customers' personal details exposed mistakenly on unprotected AWS Server
+[Photo]
+[2:47:11 PM] hizam mohd:
+[Photo]
+alibabacloud. $30 per year. ingat ni sharedhosting ke apa
+
+[2:48:40 PM] Sharuzzaman Ahmat Raslan:
+
+> hizam mohd
+>  Photo
+ni tengah offer
+[2:49:47 PM] hizam mohd:
+ala... baru perasan ada  referal. patut letak link
+ haha
+ pacak a few static sites okay dah with this spec
+edited 
+[2:51:48 PM] Ang ChinHan:
+https://www.alibabacloud.com/campaign/ecs-ssd-cloud-server
+
+Free one year if you pick strikingly(?whazzat?)
+Alibabacloud
+SSD Cloud Server -High Performance, Inexpensive, Low Cost Cloud Servers | Alibaba Cloud
+Alibaba Cloud SSD Cloud Server brings you low cost ssd cloud servers at affordable prices. Buy low cost SSD Cloud Server available in your preferred r...
+
+[2:54:34 PM] Hassan odin88 Java/.Net/PHP Developer:
+This promotion applies to ECS instances deployed in US West, US East, EU Central and Australia regions.
+
+[2:54:49 PM] TC Wu:
+wow that is cheap
+edited 
+[2:55:47 PM] Ang ChinHan:
+1GB RAM. That's *nice*. Roughly half price for equiv linode. (I just realized Linode's min ram is 1GB now, wow. DO still on 512MB for usd5/mo.)
+
+[3:20:52 PM] Shafiq Mustapa:
+
+> hizam mohd
+>  Photo
+quite a steal offer
+
+[3:25:14 PM] Ahmad Syazwan:
+Anyone wanna give me their referral?
+
+[3:28:56 PM] Ang ChinHan:
+> Ahmad Syazwan
+> Anyone wanna give me their referral?
+Ah ok. I misunderstood the orig question. Nope not a user.
+
+[4:09:27 PM] Ahmad Syazwan:
+> hizam mohd
+> ala... baru perasan ada referal. patut letak link
+Wanna give yours?
+[4:14:21 PM] hizam mohd:
+couldnt register yet... network busy. :D
+
+[4:22:56 PM] Ang ChinHan:
+I don't wanna refer people. I wanna get referred. $300 credit for your friend if you refer him/her..  https://www.alibabacloud.com/campaign/referral Hehehe. Maybe should sign up with throwaway email and refer myself....
+Alibabacloud
+Inviting Your Friends to Join Alibaba Cloud & Earn Hosting Coupons VPS Couopn
+Alibaba Cloud referral code program is an easy way for Alibaba Cloud users to invite their friends and get discount coupons. Get your referral link, s...
+
+[8:00:42 PM] Ikhwan:
+Forwarded message: Telegram Beta [7/14/17]  46K
+:x: As per July 14, 2017, Indonesia's Ministry (Ministry of Communications and Informatics) has blocked Telegram's web access by Trust+ kominfo.go.id
+
+:arrow_right: official news
+
+The sites has been block as listed below 
+telegram.me
+telegram.org
+core.telegram.org
+desktop.telegram.org
+macos.telegram.org
+web.telegram.org
+venus.web.telegram.org
+pluto.web.telegram.org
+flora.web.telegram.org
+flora-1.web.telegram.org 
+ 
+
+:arrow_right: Furthermore, all access through app is well-connected on Desktop, macOS, Android, iOS, and Windows Mobile. 
+If a moment later apps get blocked, those could be accessed with VPN or Proxy
+• https://t.me/tgbeta/1869
+• https://t.me/tgbeta/1865
+
+:white_check_mark: For bypass on browser, you can use Opera browser on mobile and desktop by enable built-in VPN.
+
+:white_check_mark: Let's help Telegram for Access Reclamation by email to aduankonten@mail.kominfo.go.id with subject "Buka Akses Telegram" and the body email can be improvised as the meaning as Telegram is fight against terrorism by doing ban for accounts that indicates as terrorism and suspicious information. https://t.me/ISISwatch
+
+:white_check_mark: Also join the petition here
+
+[10:26:54 PM] Ikhwan Hayat:
+> Ikhwan
+> :x: As per July 14, 2017, Indonesia's Ministry (Ministry of Commun
+Whut? Why is it blocked? Any backstory?
+
+[10:27:57 PM] Kamal:
+"Increased terrorism activities"
+
+[10:31:24 PM] Ikhwan:
+isis
+
+--- Saturday, July 15, 2017 ---
+
+[7:58:30 AM] Kamal:
+Topik utama group ini adalah berkaitan software development. Perbincangan boleh menggunakan sama ada Bahasa Melayu atau Bahasa Inggeris.
+
+Public Channel - https://telegram.me/devkini
+Website - https://devkini.github.io/
+Off-topic discussion (#devkini-random) - https://telegram.me/joinchat/AJotzUBJcG-5rKa1C6r5kw
+
+Telegram
+DevKini
+Info and Updates on software development and general computing.
+
+Info dan maklumat terkini berkaitan pembangunan perisian, programming serta IT/Komput...
+Kamal pinned « Topik utama group ini adalah berkaitan software development. Per»
+
+[7:59:00 AM] Kamal:
+Changed website url (no longer devkini.xyz).
+
+[8:31:07 AM] Kamal:
+Summary for this week, very rough.
+
+http://tinyletter.com/devkini/letters/discussion-summary-week-2-july-2017
+TinyLetter
+Discussion summary Week 2 July 2017
+Hi everyone, this is our first tinyletter. The intention of this is to summarize some discussions that happened in #devkini group on Telegram.
+[12:22:30 PM] Rob:
+Nice..  Ada summary
+ Auto generated ke? Ke taip sendiri. Baca mcm taip sendiri
+
+[1:17:20 PM] Kamal:
+Taip sendiri je.
+[2:22:59 PM] Izzat Zainol:
+> Rob
+> Auto generated ke? Ke taip sendiri. Baca mcm taip sendiri
+Agk impress kalau ada tool boleh auto generate. Good idea for someone to work on it :kissing_closed_eyes:
+[4:15:25 PM] Huiming:
+https://www.howtographql.com
+
+a good short overview of graphql, and how-tos tutorials for all major frameworks
+
+Howtographql
+How to GraphQL - The Fullstack Tutorial for GraphQL
+The free and open-source tutorial for you to learn about GraphQL from zero to production. After a basic introduction, you’ll build a Hackernews clone...
+[4:23:08 PM] MMM:
+I just read the Java version of that tutorial, very good
+
+--- Sunday, July 16, 2017 ---
+[9:07:39 AM] Huiming:
+Barcamp JB is on next saturday, anyone here plan to go?
+ http://www.barcampjb.org/
+
+BarCamp Johor Bahru
+Join BarCamp Iskandar Puteri 2017!
+BarCamp Iskandar Puteri 2017 is an open-platform unconference (22 July 2017) where we allow people from all walks of life to share their ideas, skills and etc.
+
+[9:21:56 AM] Kamal:
+I'll try to drop by. Got wedding to attend that day.
+[9:31:37 AM] Huiming:
+@mkamalmustafa :+1:
+
+[11:51:16 AM] Shafiq Mustapa:
+best alternative for atlassian' sourcetree?
+ using own git server
+
+[11:55:51 AM] Syafiq AZ:
+> Shafiq Mustapa
+> best alternative for atlassian' sourcetree?
+someone introduce to me with this before.
+
+http://www.syntevo.com/smartgit/
+Syntevo
+Git Client SmartGit
+SmartGit is a Git client for Windows, Mac and Linux. It is free for non-commercial use, provides a graphical access to Git repositories and can access Subversion repositories.
+[11:55:53 AM] hizam mohd:
+still on console...
+
+[11:56:28 AM] Shafiq Mustapa:
+my staff is on gui thingy, i think it call windows 10.
+ i am all console guy.
+[11:58:50 AM] hizam mohd:
+poor thing.. wonder what happens when win10 update. lawan pedang atas kerusi kat opis
+[12:16:46 PM] Izzat Zainol:
+> Shafiq Mustapa
+> best alternative for atlassian' sourcetree?
+Gitkraken.com
+[1:18:38 PM] Huiming:
+> Shafiq Mustapa
+> best alternative for atlassian' sourcetree?
+curious why not continue to use sourcetree? :)
+
+[1:30:39 PM] Ravin Optional:
+I use gitk
+
+[2:32:34 PM] Irfan Radzi:
+> Huiming
+> curious why not continue to use sourcetree? :)
+Maybe using Linux now? I know Sourcetree isn’t on Linux
+
+[3:10:17 PM] Shafiq Mustapa:
+> Huiming
+> curious why not continue to use sourcetree? :)
+always have issue with credentials. it tied to windows credential.
+
+[3:45:52 PM] Fairuz Sulaiman:
+> Irfan Radzi
+> Maybe using Linux now? I know Sourcetree isn’t on Linux
+Rasanya ada available for Linux bro
+ saya pernah pakai under Linux Mint dulu
+
+[3:48:39 PM] Irfan Radzi:
+[Photo]
+ https://community.atlassian.com/t5/SourceTree-questions/SourceTree-for-Linux/qaq-p/255473
+
+Atlassian Community
+SourceTree for Linux
+Hi! Do you plan to release SourceTree for Linux?
+ We’ve been using GitKraken for our team now
+
+[4:02:22 PM] Fairuz Sulaiman:
+
+> Irfan Radzi
+>  Photo
+Sedihnyaaa alatassian for linux already dead
+ pakai command line je la lepas ini
+[4:40:58 PM] Huiming:
+> Shafiq Mustapa
+> always have issue with credentials. it tied to windows credentia
+in that case, can try the new Github Desktop https://desktop.github.com/
+
+[4:45:47 PM] Jun Yi:
+@mkamalmustafa Does tinyletter supports horizontal rule? It's a bit hard to read with several unrelated topics bunched up together
+
+[4:48:40 PM] Kamal:
+Blame my laziness :grin: I'll do better next time.
+ And thanks for mentioning horizontal rule. I think it should have that.
+
+[11:58:34 PM] Ikhwan Hayat:
+Git Extensions the best for me.
+
+--- Monday, July 17, 2017 ---
+[10:32:01 AM] Huiming:
+Hey guys, I have a friend in PH with a team specialized in Wordpress, Drupal, ReactJS and UX Design. So if anyone need to outsource, I can connect you to them.
+
+[11:45:58 AM] Ahmad Syazwan:
+https://docs.docker.com/docker-for-mac/release-notes/#stable-release-notes
+
+Docker Documentation
+Docker for Mac release notes
+Change log / release notes per release
+ - Add an experimental DNS name for the host: docker.for.mac.localhost
+ [👍 Sticker]
+ on second thought, to share among devs will be hard because of the "for.mac" part...
+
+[11:54:18 AM] Ang ChinHan:
+Relying and using newer docker features is a recipe for breakage. Don't.
+
+[11:55:04 AM] Ahmad Syazwan:
+beats having to update my LAN IP everytime it changes
+
+[1:05:24 PM] Afif Sohaili:
+> Fairuz Sulaiman
+> pakai command line je la lepas ini
+imo command line is faster to work with. be sure to alias the common ones :)
+
+[1:07:42 PM] Syafiq AZ:
+Dont mind if I ask... 
+Anyone done and successfully do a non interactive mysql 5.7 installation with root and no password on ubuntu 14.04 purely in bash script?
+
+[1:08:52 PM] Ahmad Syazwan:
+Search for mysql unattended install. Pretty common and should have a flag for that
+
+[1:10:25 PM] Ang ChinHan:
+https://github.com/mysql/mysql-docker/blob/mysql-server/5.7/docker-entrypoint.sh
+
+GitHub
+mysql/mysql-docker
+mysql-docker - Dockerfiles and scripts for MySQL products
+edited 
+[1:10:32 PM] Syafiq AZ:
+> Ahmad Syazwan
+> Search for mysql unattended install. Pretty common and should ha
+Yeah tried. But most of it doesnt work. :sweat_smile: especially when I set for non password as it keep asking for password. Thats why I ask here.
+> Ang ChinHan
+>  https://github.com/mysql/mysql-docker/blob/mysql-server/5.7/dock
+thx. will try
+
+[2:17:05 PM] Kamal:
+> Afif Sohaili
+> imo command line is faster to work with. be sure to alias the co
+I don't use alias. Use autocomplete instead.
+
+[2:55:34 PM] Kamal:
+https://www.ironin.it/blog/amazon-web-services-cost-saving-performance-improvements.html
+
+iRonin
+How We Used Amazon Web Services to Save $84k Per Year (And Improve Performance!)...
+Find out how to save money and fine-tune performance by migrating Ruby on Rails app hosted on Heroku to Amazon Web Service.
+
+[4:10:01 PM] Afif Sohaili:
+> Kamal
+> I don't use alias. Use autocomplete instead.
+nice. share? ;)
+[4:10:57 PM] hizam mohd:
+double tap tab
+ but alias is quicker because options included, i guess
+
+[4:36:13 PM] Ahmad Syazwan:
+Combine with autosuggest so as you type it will suggest based on history and strategy selected. Then bind key to accept the suggestion or accept word by word (eg same command but different middle flag) etc. I think FIsh has this out of the box, zsh needs a plugin, bash I'm not sure
+ [Photo]
+eg. type `dock` and suggestion come out. Tab to select or ^<space> to autocomplete word-by-word
+ I use zsh so it's https://github.com/zsh-users/zsh-autosuggestions
+
+GitHub
+zsh-users/zsh-autosuggestions
+zsh-autosuggestions - Fish-like autosuggestions for zsh
+
+[4:47:28 PM] Irfan Radzi:
+nice plugin!
+
+[4:48:12 PM] Ahmad Syazwan:
+no cycling (yet) though. I use this workaround https://github.com/zsh-users/zsh-autosuggestions/issues/192
+GitHub
+Suggestion: reverse-i-search functionality · Issue #192 · zsh-users/zsh-autosuggestions
+I wonder if you have considered adding reverse-i-search functionality to this plugin, which I think would enhance this nice plugin even more. A keypre...
+
+[5:14:01 PM] Faiz Mokhtar:
+damn, that's a nice zsh plugin :+1:
+
+[5:50:10 PM] Afif Sohaili:
+> Ahmad Syazwan
+>  I use zsh so it's https://github.com/zsh-users/zsh-autosuggestio
+:heart_eyes::heart_eyes::heart_eyes::heart_eyes::heart_eyes::heart_eyes:
+
+[8:58:33 PM] Sharuzzaman Ahmat Raslan:
+Ulang siaran: https://goo.gl/forms/lBYpqugzw2GJnL0s2
+
+Google Docs
+Bagaimana menulis resume yang baik dan berjaya didalam temuduga untuk MNC - perk...
+Bengkel untuk meningkatkan kualiti resume pelajar dan pekerja Malaysia dan teknik untuk menjawab temuduga bagi syarikat MNC
+
+Oleh: Sharuzzaman Ahmat R...
+
+--- Tuesday, July 18, 2017 ---
+Kamal invited Mohd Rusman Arief A Rahman
+edited 
+[7:58:38 AM] Kamal:
+Welcome @rusmanarief.
+
+> Rusman Arief, freelancing since 2013. Currently working on JomCoach (Cradle CIP150), a mobile app to help fitness coach monitor their clients progress. Running on PHP Laravel, Ionic2/3 at this moment. #welcome
+[7:58:55 AM] hizam mohd:
+:+1:
+
+[7:59:21 AM] Mohd Rusman Arief A Rahman:
+Thank you
+
+[8:00:18 AM] Kamal:
+@rusmanarief boleh search "welcome" dalam group ni utk berkenalan dgn ahli2 lain.
+
+[8:05:34 AM] Mohd Rusman Arief A Rahman:
+Alrite
+
+[9:00:31 AM] Shafiq Mustapa:
+macam kfit style eh?
+ sorry tak pernah explore kfit
+[9:10:20 AM] hizam mohd:
+gym membership vs coaching, i guess
+
+[9:11:13 AM] Mohd Rusman Arief A Rahman:
+Kfit is like a marketplace for fitness class etc i think. Ni more like a tool. Like slack/whatsapp for fitness coaches
+ At the moment coaches do online coaching using whatsapp. Handling 5-10 people is still ok. But when it grows to 30-50 a lot of features needed
+ Still in development tho. Expected end of this year launch
+
+[9:58:33 AM] Syafiq AZ:
+> Kamal
+> Welcome @rusmanarief. > Rusman Arief, freelancing since 2013. C
+Owh I thought it was another supercoach style
+ Welcome btw!
+
+[10:02:53 AM] Mohd Rusman Arief A Rahman:
+Tq
+
+[10:27:00 AM] Syafiq AZ:
+https://twitter.com/InsightBrief/status/886753581017247745
+
+not sure where he get the number though
+InsightBrief
+#MachineLearning, #datascience dominate top #tech jobs https://t.co/s50adslhJG
+[Photo]
+
+[10:37:04 AM] Chee Leong Chow:
+thin air
+[12:37:53 PM] MMM:
+So I volunteered to take over a PHP project that uses Zend framework. Anything that I should be aware of
+
+[12:48:17 PM] Shafiq Mustapa:
+> MMM
+> So I volunteered to take over a PHP project that uses Zend frame
+boss xjadi outsource eh?
+[12:52:27 PM] hizam mohd:
+> MMM
+> So I volunteered to take over a PHP project that uses Zend frame
+its horrible
+ zf1 2 or 3?
+
+[12:52:54 PM] TC Wu:
+@zam3858 roflmao
+[12:57:53 PM] MMM:
+> Shafiq Mustapa
+> boss xjadi outsource eh?
+Different project
+ Different boss too
+ @zam3858 2.3.2
+[1:02:15 PM] hizam mohd:
+i worked with zf1. it was faster than 2. and in creating modules, zf2 put a bit more work
+
+[1:05:17 PM] Sharuzzaman Ahmat Raslan:
+> MMM
+> So I volunteered to take over a PHP project that uses Zend frame
+Breakout the module into modern framework and make it into microservices that can be updated independently
+
+[1:18:39 PM] Kamal:
+microservice ... Terlepas dari mulut buaya,
+     masuk ke mulut harimau.
+[1:19:41 PM] hizam mohd:
+buaya sakit n drowning. harimau at least breaks ur neck and not so painful
+ but anything to get a way from zf. haha
+
+[1:21:53 PM] Sharuzzaman Ahmat Raslan:
+> Kamal
+> microservice ... Terlepas dari mulut buaya, masuk ke mulut
+Kenapa tak prefer microservice?
+
+[1:28:13 PM] Kamal:
+if you have dedicated team to maintain service A, and another team for service B, then go for microservice. But if you just a few devs already full at hand, then fwiw, go monolith.
+ moving over to microservice is still possible at certain point, but to go back into monolith once you regret, almost impossible.
+
+[1:35:57 PM] Syafiq AZ:
+https://tableplus.io/
+
+Since the growth number of data engineer, data scientist... alot of new tools for database appear.
+
+tableplus.io
+Tool for Relational Database – TablePlus
+Tool for Relational Database. Native, Beautiful, Friendly.
+
+[1:38:45 PM] Ding Dang:
+Hi guys... sorry if this inappropriate for this group
+ [Photo]
+ This is my zimbra server mailbox log
+ Seems like this IP ( 91.195.103.44 ) is malicious right?
+ should I block in the main firewall ?
+ also from this IP 5.188.11.11
+ [Photo]
+
+[1:41:06 PM] Jun Yi:
+You can block them, but there will be tons of others coming from different IP
+
+[1:41:33 PM] Ding Dang:
+> Jun Yi
+> You can block them, but there will be tons of others coming from
+thanks... other possible solutions ?
+
+[1:42:00 PM] Jun Yi:
+Never used Zimbra, but ideally there should be something that can rate-limit auth attempts
+edited 
+and as always, use strong password
+
+[1:58:47 PM] Chee Leong Chow:
+zend is fine
+
+[2:11:09 PM] Sharuzzaman Ahmat Raslan:
+> Ding Dang
+> should I block in the main firewall ?
+Use fail2ban . It will ban the IP for you automatically
+edited 
+> Kamal
+> if you have dedicated team to maintain service A, and another te
+If your service A already stable, no need to put a lot of effort to it anymore. Focus on service B more
+
+[2:32:17 PM] Tokwan:
+> Sharuzzaman Ahmat Raslan
+> Breakout the module into modern framework and make it into micro
+Why would you go into microservice? Wouldn't it be more appropriate to see the business nature, and app usage before going into that?
+
+[2:35:03 PM] Sharuzzaman Ahmat Raslan:
+> Tokwan
+> Why would you go into microservice? Wouldn't it be more appropri
+Minimization of work. Unix tools philosophy. Horizontal scaling. Containerization. Function as service. All of that
+
+[2:43:13 PM] Amree:
+There was a discussion about monolith vs microservices on hackernews (yes, again) recently: https://news.ycombinator.com/item?id=14778685
+
+[3:01:24 PM] Fairuz Sulaiman:
+:sweat_smile:
+
+[3:03:26 PM] TC Wu:
+I think if it's a small team, is suicide to convert to microservice
+ Better off following the 12 factor method first to achieve some level of horizontal scalability
+
+[3:04:14 PM] Kamal:
+> Sharuzzaman Ahmat Raslan
+> Minimization of work. Unix tools philosophy. Horizontal scaling.
+it will end up in lot more work. You must have automation in place first before jumping into microservice. If your microservice can't (isn't) be decribed in docker-compose.yml (or anything similar) yet, forget about jumping to microservice.
+ otherwise you'll be spending whole day trying to setup new dev environment to fix small bug that might be creeping in between of all the services.
+ I made a mistake of allowing this microservice hype creeping into our architecture 2 years ago, and now suffering the consequences. That's why you can see I'm raging out whenever people talk about microservice :grin:
+
+[3:13:47 PM] Sharuzzaman Ahmat Raslan:
+> Kamal
+> I made a mistake of allowing this microservice hype creeping int
+Your failure should not stop other to move to microservice. I believe microservice push people to do the correct thing.
+edited 
+[3:15:31 PM] Kamal:
+Well, people can decide whether they are ready or not. I already put one argument above for people to evaluate their readiness. I'll put more.
+
+[3:31:21 PM] Tokwan:
+I'd go monolith too. Then microservice parts of it as needed. To go full microservice right from the start seems to much work and I really don't see the value for small team
+[3:34:14 PM] Imran Ismail:
+http://basho.com/posts/technical/microservices-please-dont/
+
+Basho
+Microservices - Please, don’t
+This blog post is adapted from a lightning talk I gave at the Boston Golang meetup in December of 2015. 
+
+For a while, it seemed like everyone was cr...
+
+[4:04:02 PM] Kamal:
+> The biggest is simply that to do anything, you have to run an ever-increasing number of services to make even the smallest of changes. This means you have to invest time and effort into building and maintaining a simple way for engineers to run everything locally. Things like Docker can make this easier, but someone still needs to maintain these as things change.
+
+Right, as I mentioned above.
+
+[4:26:33 PM] Ikhwan:
+https://aadrake.com/posts/2017-05-20-enough-with-the-microservices.html
+edited 
+[4:27:02 PM] Ravin Optional:
+I imagine in some multiverse @mkamalmustafa and team moved to microservices had a wonderful experience with it, and encourages everyone to migrate to it.(Forgot, #random is in the other way)
+
+[4:27:22 PM] Ang ChinHan:
+*shrug* /me enough of the meta-microservices.
+/me back to work.
+ Wait, wait....
+ emacs is better than vim.
+edited 
+[4:31:45 PM] Ravin Optional:
+> Ang ChinHan
+> emacs is better than vim.
+This is a fact. :joy:
+ #runs_away
+
+[4:33:57 PM] Chee Leong Chow:
+green bikeshed looks good
+
+[4:34:45 PM] Choon-Siang (@Jeffrey04) Lai:
+i like my vim, it is colorful
+
+[4:36:36 PM] Tokwan:
+Still using Sublime. I don't get both Vim and Emacs ¯\_(ツ)_/¯
+
+[4:41:07 PM] Ravin Optional:
+> Tokwan
+> Still using Sublime. I don't get both Vim and Emacs ¯\_(ツ)_/¯
+It is reserved for lunatics and sages. Guess which one i am?
+edited 
+[4:45:46 PM] Ang ChinHan:
+(hijack just to mention following 12 factor is more important than m.croservice. *if* you can structure stuff that way).
+
+[4:46:14 PM] Jun Yi:
+> Ravin Optional
+> It is reserved for lunatics and sages. Guess which one i am?
+Parenthesis lover
+[4:46:33 PM] Imran Ismail:
+> Tokwan
+> Still using Sublime. I don't get both Vim and Emacs ¯\_(ツ)_/¯
+🖐
+edited 
+[4:46:34 PM] Ang ChinHan:
+(No kidding) #random is that way....
+
+[4:49:27 PM] Ravin Optional:
+> Jun Yi
+> Parenthesis lover
+I will probabilistically answer this, Yes: ⅕, No: ⅕.
+> Ang ChinHan
+> (No kidding) #random is that way....
+Sorry. bad habit.
+edited 
+[4:58:40 PM] Jun Yi:
+> Ravin Optional
+> I will probabilistically answer this, Yes: ⅕, No: ⅕.
+So you can neither confirm nor deny the statement.
+
+[4:59:23 PM] Ravin Optional:
+> Jun Yi
+> So you can neither confirm nor deny the statement.
+I'm using many valued logic. :joy:
+
+[4:59:26 PM] Ang ChinHan:
+nil
+
+[4:59:47 PM] Ravin Optional:
+> Ang ChinHan
+> nil
+Best error code ever.
+edited 
+[5:01:43 PM] Ang ChinHan:
+No kidding. 
+if err == nil {
+ fmt.Println("Success!")
+} else {
+ goto errorHandler
+}
+// See folks twitch...
+
+[5:03:03 PM] Jun Yi:
+Go knows no ? operator
+edited 
+[5:04:13 PM] Ang ChinHan:
+true https://golang.org/doc/faq#Does_Go_have_a_ternary_form
+
+[5:08:08 PM] Jun Yi:
+I am referring to https://doc.rust-lang.org/book/second-edition/ch09-02-recoverable-errors-with-result.html#a-shortcut-for-propagating-errors-
+
+[5:09:38 PM] Ang ChinHan:
+Oh, that looks fun. Error prone for those not in the know.
+
+[7:28:55 PM] Ikhwan:
+Forwarded message: Doni Rubiagatra [Tue] 
+https://youtu.be/F6NDWyX1Gm4
+YouTube
+#WomenInLinux CTO Series: Nigel Kersten & Deepak Giridharagopal, Puppet
+Source: https://www.spreaker.com/user/womeninlinux/womeninlinux-podcast-cto-nigel-deepak-puppet #WomenInLinux CTO Series: Nigel Kersten & Deepak Giridharagop...
+[Video]
+[9:05:34 PM] MMM:
+Spring can be so annoying, wondering why things didnt work, turns out I missed a @Configuration annotation on a Test class
+edited 
+[9:17:57 PM] Ravin Optional:
+> MMM
+> Spring can be so annoying, wondering why things didnt work, turn
+I thought java is strong/static typed. :joy: (being the devils advocate)
+[9:19:56 PM] MMM:
+Annotations in Spring are processed at Runtime
+ so you lose some safety
+
+[9:24:13 PM] Ravin Optional:
+> MMM
+> so you lose some safety
+I empathize.
+
+[11:20:41 PM] Kamal:
+[Photo]
+Currently reading. It's not just microservices vs monolith but lot of insight on how to design and structure your code.
+
+--- Wednesday, July 19, 2017 ---
+
+[9:10:03 AM] Amree:
+We had to argue with a team about monolith vs microservices a few days ago. Not fun
+
+[9:14:51 AM] Kamal:
+Curious to know the arguments, pros and cons.
+[10:05:39 AM] MMM:
+I am in the monolithic camp if you are less than 5 people
+
+[10:13:14 AM] Chee Leong Chow:
+why can't we have both? lol
+
+[8:24:10 PM] Kamal:
+Pair programming is pretty well known, but this taking it to more extreme level.
+
+http://underthehood.meltwater.com/blog/2016/06/01/mob-programming/
+Meltwater
+Mob Programming - the Good, the Bad and the Great.
+June 01, 2016 Posted by Karin Obermüller and Jeff Campbell | Comments Mob Programming - the Go...
+ https://www.youtube.com/watch?v=p_pvslS4gEI
+YouTube
+A day of Mob Programming
+Watch a timelapse of a full day of work for a team of programmers doing Mob Programming. Mob Programming is very similar to Pair Programming, but the whole t...
+[Video]
+
+[8:27:07 PM] Alex Hong Pin Tan:
+We are doing this too, working on a single pc but change every 30 minutes
+
+[8:27:30 PM] Kamal:
+all the time ?
+
+[8:27:57 PM] Alex Hong Pin Tan:
+At the start of a new feature, since there are a lot of unknowns
+ Once the foundation is there, we break to pairs/individuals
+Unread messages
+
+--- Thursday, July 20, 2017 ---
+[2:02:17 PM] MMM:
+> Ang ChinHan
+> This I can tell you: Docker has lots of gotchas. Go has *less* g
+Didnt think that computer vision could be so much fun
+
+[2:44:19 PM] Jun Yi:
+CV is fun, but what in the daily job scope can I use it for
+
+[2:44:44 PM] Ang ChinHan:
+hotdog or not?
+
+[2:45:29 PM] Chee Leong Chow:
+I heard it's the latest trend to replicate at local academics.
+[2:50:01 PM] MMM:
+> Jun Yi
+> CV is fun, but what in the daily job scope can I use it for
+OCR
+
+[2:51:14 PM] Jun Yi:
+Unless you are making those apps, but usually you dont implement it yourself do you?
+edited 
+[2:55:43 PM] MMM:
+Also Snapchat like photo overlays
+
+[2:57:34 PM] Afif Sohaili:
+any of you guys played with ai image recognition?
+ clarifai, etc.?
+
+[3:00:22 PM] Chee Leong Chow:
+if I feed CV footage of sheeps jumping over fence, will it sleep?
+Irvan Putra joined group via invite link
+
+[3:29:08 PM] Ikhwan:
+added @vandeput from traveloka :)
+> Ikhwan
+> added @vandeput from traveloka :)
+cc @kimiamania :)
+
+[3:29:48 PM] Chee Leong Chow:
+To proceed, key in your secret passphrase here.
+
+[3:29:54 PM] Ang ChinHan:
+hunter2
+
+[3:29:57 PM] Irvan Putra:
+Hi everyone. Thanks @mxwan for adding me. Just a disclaimer, all kind of messages from me will be my personal view, not the company :D
+
+[3:31:48 PM] Kamal:
+Hi Irvan.
+
+[3:32:19 PM] Michael Liew:
+0/
+
+[3:34:34 PM] Ang ChinHan:
+> Afif Sohaili
+> any of you guys played with ai image recognition?
+Only some of andrew ng's handwriting recognition exercises.
+edited 
+... shame. I liked  x ^= y ^= x ^= y https://blogs.msdn.microsoft.com/oldnewthing/20170719-00/?p=96645
+The Old New Thing
+Do people write insane code with multiple overlapping side effects with a straight face?
+I guess some do.
+[4:24:59 PM] Ming Yu Python:
+hi guys. any ideas why this react counter not incrementing?
+ https://codesandbox.io/s/31V3pg07Q
+
+codesandbox.io
+CodeSandbox - Editor
+An online React editor with a focus on creating, sharing and importing
+ it stays at 0
+edited 
+[4:33:05 PM] Ang ChinHan:
+I don't know react. But this fixes it:  componentDidMount = () => {
+  const mainFunc = () => {
+   this.tick();
+   this.incrementCounter();
+  }
+  this.timerID = setInterval(mainFunc, 1000);
+  };
+
+(https://codesandbox.io/s/8E4KB0xj )
+
+codesandbox.io
+CodeSandbox - Editor
+An online React editor with a focus on creating, sharing and importing
+ (wtf are all these incrementCounter = () => {} js abuse? ugh.)
+ ... example react code looks sane though. No code of the above form. https://facebook.github.io/react/
+React - A JavaScript library for building user interfaces
+[Photo]
+[4:38:58 PM] Ming Yu Python:
+thanks @angch   :)
+ that worked
+
+[4:41:17 PM] Ang ChinHan:
+> Ang ChinHan
+> (wtf are all these incrementCounter = () => {} js abuse? ugh.)
+tl/dr: ES6's Arrow Functions. TIL. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+Mozilla Developer Network
+Arrow functions
+An arrow function expression has a shorter syntax than a function expression and does not bind its own this, arguments, super, or new.target. These fu...
+ Nice shorthand for lambdas.
+ Ah... https://www.vinta.com.br/blog/2015/javascript-lambda-and-arrow-functions/
+
+www.vinta.com.br
+Web Development Shop - We build software for companies in the US and Europe
+Posts, articles, and thoughts from Python, Django, React, and more.
+[5:03:01 PM] Rob:
+Does digital ocean reject debit card ?
+
+[5:03:17 PM] Choon-Siang (@Jeffrey04) Lai:
+i usually pay by paypal
+ which ties to my debit card
+
+[5:04:26 PM] Irvan Putra:
+Yes, they reject it. Not really nice rejection though. Perhaps try it around Paypal just like what Choon above said.
+
+[5:05:42 PM] Choon-Siang (@Jeffrey04) Lai:
+lol im siang but whatever lol
+
+[5:06:30 PM] Ahmad Syazwan:
+I also use PayPal for DO
+
+[5:09:37 PM] Irvan Putra:
+> Choon-Siang (@Jeffrey04) Lai
+> lol im siang but whatever lol
+ah sorry :D
+
+[5:10:14 PM] Choon-Siang (@Jeffrey04) Lai:
+no worries, that show hyphenating my name doesn't really work lol
+
+[5:21:02 PM] Kamal:
+We call him Jeff, btw.
+
+[5:34:42 PM] Irvan Putra:
+Hi Jeff :)
+[6:35:09 PM] Rob:
+Oh okey..  It been a while I dont use debitcard
+ Seem PayPal also don't accept maybank debit card
+ Maybe need to contact maybank and open the transaction
+ RHB seem supported by PayPal
+
+[6:38:29 PM] Ahmad Syazwan:
+> Rob
+> Seem PayPal also don't accept maybank debit card
+Sounds wrong... I've only got my first CC this year, so all these time I must've been using debit card... I dunno
+
+[6:54:51 PM] Hassan odin88 Java/.Net/PHP Developer:
+https://twitter.com/flyosity/status/887866459896123392
+Mike Rundle
+44K ETH worth ~$9M stolen because a wallet init method had the wrong scope. Here's the commit that fixed the bug. Welcome to the future.
+[Photo]
+
+[7:07:33 PM] Ang ChinHan:
+"The initWallet function should have been marked internal, but was instead not marked. Unmarked functions default to public in Solidity, so anyone can call that function and reinitialize the wallet to be under their control"
+
+Heh.
+edited 
+Wonder if they're gonna do hard fork again? (apparently not)
+[7:16:44 PM] Rob:
+> Ahmad Syazwan
+> Sounds wrong... I've only got my first CC this year, so all thes
+Using maybank debit card also?
+
+[7:21:39 PM] Ahmad Syazwan:
+Pretty sure coz I only linked maybank previously and I had no CC. It has been too long, so if not directly link account (can't be) must be debit card
+
+[7:38:23 PM] Ikhwan:
+> Rob
+> Maybe need to contact maybank and open the transaction
+register for MSOS :)
+
+[7:55:45 PM] Rezha Julio:
+> Irvan Putra
+>  joined the group
+Lol you again :joy:
+
+[8:07:22 PM] Choon-Siang (@Jeffrey04) Lai via @gif:
+> Irvan Putra
+> Hi Jeff :)
+[GIF]
+
+
+--- Friday, July 21, 2017 ---
+
+[7:57:44 AM] Kamal:
+[Photo]
+#kubernetes
+
+[8:04:36 AM] Ang ChinHan:
+Very accurate.
+
+[11:54:24 AM] Ahmad Syazwan:
+Just sharing as a very satisfied user. Ripgrep is an excellent replacement to grep. It's blazing fast! https://github.com/BurntSushi/ripgrep
+
+GitHub
+BurntSushi/ripgrep
+ripgrep combines the usability of The Silver Searcher with the raw speed of grep.
+ Why shouldn't I use ripgrep?
+
+I'd like to try to convince you why you shouldn't use ripgrep. This should give you a glimpse at some important downsides or missing features of ripgrep.
+
+- ripgrep uses a regex engine based on finite automata, so if you want fancy regex features such as backreferences or look around, ripgrep won't give them to you. ripgrep does support lots of things though, including, but not limited to: lazy quantification (e.g., a+?), repetitions (e.g., a{2,5}), begin/end assertions (e.g., ^\w+$), word boundaries (e.g., \bfoo\b), and support for Unicode categories (e.g., \p{Sc} to match currency symbols or \p{Lu} to match any uppercase letter). (Fancier regexes will never be supported.)
+- ripgrep doesn't yet support searching compressed files. (Likely to be supported in the future.)
+- ripgrep doesn't have multiline search. (Unlikely to ever be supported.)
+
+In other words, if you like fancy regexes, searching compressed files or multiline search, then ripgrep may not quite meet your needs (yet).
+
+[12:01:17 PM] Irvan Putra:
+What is the biggest area that you have done and the performance, @asyazwan ? :D
+
+[12:02:15 PM] Ahmad Syazwan:
+I use almost everyday to search 3GB codebase at our company
+ I don't need fancy grep features. Usually just wanna find where something is then inspect with editor
+
+[12:06:16 PM] Irvan Putra:
+Glad to hear 3GB codebase is still searchable :D
+
+[12:08:20 PM] Chee Leong Chow:
+it's really fast
+
+[12:21:22 PM] Ang ChinHan:
+The writeup is fun and informative. http://blog.burntsushi.net/ripgrep/
+blog.burntsushi.net
+ripgrep is faster than {grep, ag, git grep, ucg, pt, sift} - Andrew Gallant's Blog
+I blog mostly about my own programming projects.
+
+[1:10:36 PM] Sharuzzaman Ahmat Raslan:
+Here's the JD for the role below: 
+Support Engineer – Consultant, Accenture, KL. 
+• Lead the maintenance of the public cloud until the end of the warranty period and transition over to the BAU operations team 
+• AWS configuration and administration 
+• Security groups and policies 
+• Network routing including DirectConnect, IPSec, BGP 
+• CloudFormation scripting 
+• CloudWatch configuration/customisations 
+• HANA Quick Start 
+• Native AWS backup and restore 
+• Disaster Recovery architectures on AWS 
+• Cloud security 
+• HANA technologies (optional) 
+
+This is a really urgent role within Accenture, KL, so would really appreciate if you could refer any people at the quickest please. 
+
+Thank you so much! 
+
+Regards Niyati
++65 83491534
+niyati.seth@bluestream.sg
+
+[1:41:56 PM] Tokwan:
+> Rob
+> Does digital ocean reject debit card ?
+If you still want to use it, you can email their support. They will ask you to hold your debit card, and take a selfie with it #truestory
+[2:16:40 PM] Rob:
+> Tokwan
+> If you still want to use it, you can email their support. They w
+Seriously? haha
+
+[2:17:20 PM] Tokwan:
+I'm not even joking.. Haha
+
+[2:20:11 PM] 𖣓🅂🄰🄻🅸🅼🄰🄽𖣓 ( اوبليكس ):
+They asked for the key as well? 🤔:grimacing:
+
+[2:21:09 PM] Tokwan:
+Sorry. Not debit card, but your ID card
+
+[2:22:13 PM] Kamal:
+credit card fraud is so much hassle that we also stop accepting credit card payment, unless we manually vet the person.
+
+[2:22:54 PM] Syafiq AZ:
+How did CC fraud happen?
+
+[2:23:31 PM] Kamal:
+so each user will have allow_credit_card flag, and we manually set that flag after we manage to proof their identity.
+> Syafiq AZ
+> How did CC fraud happen?
+well, the easiest way is through chargeback. Malaysian is well known in doing this.
+ "worldwide".
+[2:34:52 PM] Rob:
+> Tokwan
+> Sorry. Not debit card, but your ID card
+Ok tok wan
+
+[2:55:31 PM] Syafiq Faiz:
+https://github.com/devkini/notes/wiki/Why-not-microservice-?
+
+GitHub
+devkini/notes
+Random notes on software development, discussion summary on #devkini group
+ what a great idea, to summarise a telegram discussion
+
+[2:59:45 PM] Kamal:
+thanks, that will give me some more motivation in doing it further :)
+
+[3:00:39 PM] Ang ChinHan:
+Easier to search through too, so we can point folks to older discussions.
+
+[3:01:59 PM] Kamal:
+If you guys prefer to have your name associated, let me know. For now I just put it as anonymous statement, without any name attached.
+
+[3:03:26 PM] TC Wu:
+its a great idea @syafiqfaiz
+
+[3:03:26 PM] Syafiq AZ:
+Eh
+
+[3:03:59 PM] TC Wu:
+oh its by @mkamalmustafa
+
+[3:04:11 PM] Syafiq AZ:
+Microservice for bitcoin exchange seems ok
+
+[3:04:12 PM] TC Wu:
+saw the sharer was @syafiqfaiz
+
+[3:05:46 PM] Syafiq Faiz:
+saw @mkamalmustafa shared it on linkedin
+
+[3:06:26 PM] Chee Leong Chow:
+For microservices, take the example of a django project, you can host multiple apps together, but you can also break them down when you need them to. It's all goes down to planning and design paradigm.
+ Same goes with Zope related projects.
+
+[3:08:10 PM] Ang ChinHan:
+> TC Wu
+> oh its by @mkamalmustafa
+FYI for all #devkini is started, admin'd and curated by @mkamalmustafa
+
+[3:08:44 PM] TC Wu:
+are we starting the "discussion" again @yasaikun
+
+[3:08:49 PM] Chee Leong Chow:
+you better respect the overlord
+
+[3:08:58 PM] TC Wu:
+lol
+edited 
+[3:09:06 PM] Chee Leong Chow:
+> TC Wu
+> are we starting the "discussion" again @yasaikun
+nope, just additional rant to the addition just now
+edited 
+[3:09:24 PM] TC Wu:
+meant no disrespect, just attributed the creator to the sharer by mistake
+
+[3:09:27 PM] Ang ChinHan:
+> Chee Leong Chow
+> For microservices, take the example of a django project, you can
+I'm actually thinking some of the microservices stuff is related to the vendoring of code. So much copying and being unable to dedupe before of old design decisions and forks.
+
+[3:10:16 PM] Syafiq AZ:
+> TC Wu
+> meant no disrespect, just attributed the creator to the sharer b
+Chill
+edited 
+[3:10:37 PM] Ang ChinHan:
+I *think* the giant monolithic repo of vendored stuff is one of the ways around some of these issues. You'll still need to pay for the code maintainance somewhere sometime.
+
+[3:11:08 PM] Chee Leong Chow:
+nothing lasts forever beside the circular paradigm shift.
+
+[3:12:42 PM] Kamal:
+> Syafiq Faiz
+> saw @mkamalmustafa shared it on linkedin
+because another friend was sharing article on microservice too, so that was my response to him.
+edited 
+[3:13:30 PM] Ang ChinHan:
+I've seen the debate elsewhere before, and I'm staying out of it. Nothing new to add.
+
+[3:37:18 PM] Jun Yi:
+https://github.com/chrisdone/jl
+
+GitHub
+chrisdone/jl
+jl - Functional sed for JSON
+
+[3:38:39 PM] Ang ChinHan:
+For those not seen it, there's also jq. querying only, no manipulation much.
+
+[3:38:58 PM] TC Wu:
+hey quick one
+ i am building a chat bot server
+ golang vs nodejs
+ i built my prototype in both
+ still a bit undecided
+ my brain knows that golang will be able to process text files faster
+ because compiled language etc
+ and i will be processing an obscene amount of text files
+edited 
+[3:39:50 PM] Jun Yi:
+Zero to Bot, which one is easier/faster (to code)?
+
+[3:40:19 PM] TC Wu:
+but i also think nodejs will be faster to build, because more libs
+edited 
+i know both langs equally well, as in ok-lar at both
+[3:40:42 PM] MMM:
+Oracle DDLs aren't transactional
+
+[3:40:43 PM] Ang ChinHan:
+Traditionally, I'd suggest you use elixir for the "best" tool at chat servers. But ahem. Microservices required if you wanna mix/match with other parts of your app.
+
+[3:41:12 PM] Jun Yi:
+Specifically to the prototypes you built of course, since you already built it
+edited 
+[3:41:36 PM] TC Wu:
+@angch have you been talking to dexter codo recently? he's usually the guy who goes on and on about elixir
+
+[3:41:54 PM] Ang ChinHan:
+Don't remember him.
+
+[3:42:10 PM] TC Wu:
+well, not gonna have time to learn new lang for this
+ well i probably can do it
+ but
+ i don't want to introduce another language to our dev stack mix
+edited 
+which is already rails, kotlin for android, swift for ios, python, and golang
+
+[3:43:04 PM] Jun Yi:
+What kind of text procesing are you doing?
+
+[3:43:07 PM] Ang ChinHan:
+What chat platform? That'll hint you towards which libs is more mature.
+
+[3:43:18 PM] TC Wu:
+all the non english ones
+ the lines and wechats of the world
+
+[3:43:39 PM] Irvan Putra:
+WeChat has API?
+ LINE?
+
+[3:43:44 PM] Ang ChinHan:
+Every other damn Go lib I'm whinging about is from China. So there.
+
+[3:43:54 PM] TC Wu:
+so golang it is
+ @vandeput for official accounts
+
+[3:44:09 PM] Jun Yi:
+Ease of maintainability comes first imho, then the rest depends on if the amount of text is huge enough to go beyond IO bottleneck into CPU, then maybe its worth investing in compiled lang.
+
+[3:44:20 PM] TC Wu:
+line haven't checked out yet @vandeput i assume so, because they're big in some ASEAN countries
+ the amount of text is relatively small per instance @realityredefined but there will be a lot of it
+ if you know wechat
+
+[3:45:07 PM] Chee Leong Chow:
+golang is not fast at parsing text though
+edited 
+[3:45:12 PM] TC Wu:
+they let official accounts respond in some kind of markup, i intend to create a simple tool to let our marketers and designers use to create the markup
+
+[3:45:17 PM] Chee Leong Chow:
+or certain mathematic operation
+
+[3:45:20 PM] Jun Yi:
+Well then, lang doesnt really matter. Just pick the one that you like to maintain
+
+[3:45:37 PM] Ang ChinHan:
+> Chee Leong Chow
+> golang is not fast at parsing text though
+Faster than js. Heheh.
+
+[3:45:38 PM] Irvan Putra:
+Hm... I am currently using Franz (http://meetfranz.com , an Electron app), combining multiple chat programs, but no LINE integration :(
+
+Franz
+Franz – a free messaging app for Slack, Facebook Messenger, Whatsapp, Telegram and more
+Franz is a free messaging app/former emperor of Austria, that combines chat & messaging services into one application.
+
+[3:45:51 PM] Kamal:
+> Irvan Putra
+> WeChat has API?
+I think that's what define wechat ? The third party applications built around it ?
+
+[3:46:12 PM] Ang ChinHan:
+*shrug* Can't attest to quality: https://github.com/KevinGong2013/ggbot
+
+GitHub
+KevinGong2013/ggbot
+ggbot - 一个用Go写的微信机器人
+
+[3:46:14 PM] Chee Leong Chow:
+nice, now I can use wechat api to scan for massage center around my area
+
+[3:46:55 PM] Irvan Putra:
+> Kamal
+> I think that's what define wechat ? The third party applications
+Ah, yeah, I forgot about WeChat strength, was only focusing on getting the answer if LINE has an API
+
+[3:47:00 PM] Ang ChinHan:
+We just found our Golang meetup topic? Wechat bot.
+
+[3:47:36 PM] TC Wu:
+lol
+
+[3:47:43 PM] Ang ChinHan:
+Looks official enough: LINE in Go. https://github.com/line/line-bot-sdk-go
+
+GitHub
+line/line-bot-sdk-go
+line-bot-sdk-go - Go SDK for the LINE Messaging API
+edited 
+(Mind you, I know more Go than JS, so I'm biased. And I'm totally ignorant on wechat and line)
+
+[3:48:12 PM] Choon-Siang (@Jeffrey04) Lai:
+> Irvan Putra
+>  Hm... I am currently using Franz (http://meetfranz.com , an Elec
+try rambox, oso electron app, and open source lol
+ http://rambox.pro/
+
+Rambox
+Rambox : Free, Open Source and Cross Platform app for Slack, WhatsApp, Messenger...
+Free, Open Source and Cross Platform messaging and emailing app that combines common web applications into one.
+
+[3:49:24 PM] Jun Yi:
+Depends on scale, maybe it will become a question of concurrency scaling of Go VS Nodejs
+
+[3:49:51 PM] TC Wu:
+i don't normally worry about scale until the biz people actually manage to do it
+
+[3:50:00 PM] Irvan Putra:
+Woot, thanks @angch & @Jeffrey04 !
+
+[3:50:21 PM] Ang ChinHan:
+> Irvan Putra
+> Woot, thanks @angch & @Jeffrey04 !
+? I didn't do nuthin'.
+
+[3:50:35 PM] Irvan Putra:
+that LINE-bot-sdk :D
+ and Rambox is open source, yay!
+ was going to create one if there isn't any. Quite frustated that Franz is not open source xD
+
+[3:51:29 PM] Choon-Siang (@Jeffrey04) Lai:
+^ or u can always open a spare chrome, and load all the chat apps in it lol
+
+[3:51:45 PM] Kamal:
+http://www.businessinsider.com/wechat-why-it-dominates-china-2015-8/?IR=T&r=MY
+
+Poeple laughed at me when I shared this in another group sometimes ago. They said they have been in china and what in the article far from truth and wechat not even dominating china.
+
+Business Insider
+This Chinese messaging app is taking the country by storm — and Facebook should pay attention
+In China, WeChat is more than just a messaging platform.
+
+[3:52:09 PM] Chee Leong Chow:
+realry?
+
+[3:52:20 PM] Ang ChinHan:
+"wechat not even dominating china." Heh. Folks more ignorant than me, perhaps.
+
+[3:52:41 PM] Chee Leong Chow:
+I think mobile payment is crazy there
+
+[3:52:42 PM] Sharuzzaman Ahmat Raslan:
+> TC Wu
+> i know both langs equally well, as in ok-lar at both
+so what is your concern?
+
+[3:52:44 PM] Irvan Putra:
+@Jeffrey04 LINE doesn't have web client though.
+
+[3:53:14 PM] Choon-Siang (@Jeffrey04) Lai:
+it has a chrome app iirc, or did they retire it?
+ i stopped using it because none of my contacts are on it
+
+[3:53:35 PM] Irvan Putra:
+oh, I don't like Chrome App.
+
+[3:53:47 PM] Ang ChinHan:
+When I can't pay with a credit card in a "proper" restaurant in China, but on the other hand, I can wechat/alipay to buy hawker food....
+
+[3:53:51 PM] Chee Leong Chow:
+don't worry, Google discontinued them.
+> Ang ChinHan
+> When I can't pay with a credit card in a "proper" restaurant in
+that's progress
+
+[3:54:45 PM] Irvan Putra:
+> Ang ChinHan
+> When I can't pay with a credit card in a "proper" restaurant in
+can you use wechat/alipay in that restaurant?
+
+[3:54:56 PM] Ang ChinHan:
+Still a pain to enable non-china people to use wechat pay to pay for things there. Need china bank account.
+
+[3:55:17 PM] Choon-Siang (@Jeffrey04) Lai:
+> Kamal
+>  http://www.businessinsider.com/wechat-why-it-dominates-china-201
+next logical question should be when were they in caina, because wechat became a hit starting only a few years ago
+
+[3:55:22 PM] Ang ChinHan:
+> Irvan Putra
+> can you use wechat/alipay in that restaurant?
+Yes. They keep asking if we can use those to pay instead.
+
+[3:55:31 PM] Irvan Putra:
+Wow.
+
+[3:55:36 PM] Ang ChinHan:
+Had to resort to get local friend to pay with wechat first and then pay them later.
+> Choon-Siang (@Jeffrey04) Lai
+> next logical question should be when were they in caina, because
+True
+
+[3:55:50 PM] Choon-Siang (@Jeffrey04) Lai:
+i was told u can go to their pasar and buy fresh vege with wechat wallet
+
+[3:56:09 PM] Chee Leong Chow:
+yeah, that's what I heard too
+
+[3:56:16 PM] Choon-Siang (@Jeffrey04) Lai:
+if this is not mainstream i dunno what is mainstream
+
+[3:56:19 PM] Irvan Putra:
+Is the myth that some place only accept Wechat, no cash, true?
+
+[3:56:22 PM] Chee Leong Chow:
+and some shops in shenzhen only accept wechat pay
+edited 
+[3:57:04 PM] TC Wu:
+@Sharuzzaman which one faster to build i guess, so basically which one has more libs that i can use
+
+[3:57:33 PM] Choon-Siang (@Jeffrey04) Lai:
+also apparently they recently crippled whatsapp, hence making wechat one of the largest chatting platform if not the only one
+ (wechat offer no e2e encryption tho.... so...)
+
+[3:58:12 PM] Chee Leong Chow:
+abang besar suka
+
+[3:58:14 PM] Ang ChinHan:
+> TC Wu
+> @Sharuzzaman which one faster to build i guess, so basically whi
+Don't use the chinese documented only API libs. You'd wanna er... delegate it to others to clean up later.
+
+[3:58:51 PM] TC Wu:
+lol, i can read chinese perfectly fine though @angch
+edited 
+[3:59:01 PM] Sharuzzaman Ahmat Raslan:
+> TC Wu
+> @Sharuzzaman which one faster to build i guess, so basically whi
+I believe node.js should be the fastest to develop, and easy to deploy. you can deploy node.js app in aws lambda, and quickly iterate your bot
+edited 
+[4:01:17 PM] Ang ChinHan:
+> TC Wu
+> lol, i can read chinese perfectly fine though @angch
+But you can't get Dave to write and maintain the Go code. ;) (Unless he can read Chinese)
+
+[4:05:57 PM] TC Wu:
+i don't think he ever wants to go near the chat bot code lol @angch
+edited 
+@Sharuzzaman i cannot deploy this chat server outside of china unfortunately, i discovered this the other day while testing, the wechat admin testing suite cannot reach heroku or AWS
+
+[4:06:43 PM] Ang ChinHan:
+Clever dude. In the meantime... $%^& I can't register my wechat number to get access to their dev sandbox...
+
+[4:07:17 PM] TC Wu:
+@Sharuzzaman and both aliyun and bae have prebuilt vms for go
+
+[4:07:20 PM] Sharuzzaman Ahmat Raslan:
+> TC Wu
+> @Sharuzzaman i cannot deploy this chat server outside of china u
+AWS got china region
+ but maybe no lambda yet
+
+[4:07:44 PM] TC Wu:
+aliyun free tier is more free than AWS free tier lol
+edited 
+thats my main reason with going with aliyun, same with BAE
+ actually quite interested in checking out BAE
+ its also an opportunity for me to brush up my chinese
+
+[4:08:35 PM] Sharuzzaman Ahmat Raslan:
+yup. lambda not in beijing
+
+[4:08:51 PM] TC Wu:
+i want to see how advanced is BAE compared to heroku
+ which is the PAAS that i am most experienced with
+
+[4:09:10 PM] Sharuzzaman Ahmat Raslan:
+what is BAE?
+
+[4:09:47 PM] Chee Leong Chow via @gif:
+[GIF]
+
+
+[4:09:48 PM] Ang ChinHan:
+> TC Wu
+> @Sharuzzaman and both aliyun and bae have prebuilt vms for go
+:) Not too hard to have libs for Go.... only big questions is you use cgo for sqlite, etc. Then need to decide on glibc, musl, alpine, etc.
+
+[4:10:38 PM] TC Wu:
+baidu app engine @Sharuzzaman
+
+[4:10:53 PM] Chee Leong Chow:
+TIL
+
+[4:11:14 PM] TC Wu:
+most likely using cassandra for storage
+
+[4:13:18 PM] Sharuzzaman Ahmat Raslan:
+> TC Wu
+> baidu app engine @Sharuzzaman
+noted
+
+[4:14:01 PM] TC Wu:
+from what i can tell its more like google app engine than heroku
+
+[4:31:25 PM] Ang ChinHan:
+Lol, that's easy. Just docker push to it: https://cloud.baidu.com/doc/BAE-Pro/GUIGettingStarted.html#.E8.87.AA.E5.AE.9A.E4.B9.89.E9.95.9C.E5.83.8F
+
+[4:36:12 PM] Chee Leong Chow:
+ 
+[Screen Shot 2017-07-21 at 16.36.00.png] 6 KB
+ 
+feedback with reward lol
+
+[4:42:43 PM] Ang ChinHan:
+Meh. I hit this. https://stackoverflow.com/questions/44263414/unable-to-log-into-wechat-sandbox Can login to their sandbox via the weixin endpoint though.
+
+Stackoverflow
+Unable to log into WeChat Sandbox
+Revisiting a project I've not opened for a month or so I've found that the sandbox account I previously set up cant be accessed, visiting; 
+http://adm...
+ /me going through the different golang wechat libs now. Not a lot updated recently.
+ Testing with this: https://github.com/esap/wechat at least it looks recent enough.
+
+GitHub
+esap/wechat
+wechat - golang实现的微信SDK
+
+[5:12:17 PM] Ang ChinHan:
+@kaizenx Hmmm, weixin's api can't connect to servers outside of china or something? It keeps giving me system error when adding the callback URL.
+
+[5:15:52 PM] TC Wu:
+yeah it can't
+ your server needs to be in china
+ this is anecdotal
+ i couldn't get it to hit my heroku or aws server
+ registering for a china mobile phone now so that i can get an aliyun account
+edited 
+[5:20:44 PM] Ang ChinHan:
+Yup, sounds like it. Errors not very helpful. 配置失败 configuration error. @#$%^&*
+
+[5:22:10 PM] Choon-Siang (@Jeffrey04) Lai:
+lol, not sure if this is useful http://www.greatfirewallofchina.org/
+
+[5:24:15 PM] Ang ChinHan:
+It's not blocked. But it might be that weixin api itself only connects to whitelisted locations.
+
+[5:27:34 PM] TC Wu:
+ah yes
+ yeah the errors are a bit not useful
+
+[8:22:25 PM] Tokwan:
+Doing Elasticsearch now, but still experimenting to find the right algo and scoring weight. So I'm thinking to make the booster to be customizable through an admin panel instead of having to commit each time, pass code review, pass CI, merge then deploy
+ Right now I'm thinking to just store the custom boosters in Redis. Any other way?
+
+--- Saturday, July 22, 2017 ---
+
+[2:38:15 PM] Afif Sohaili:
+> Tokwan
+> Doing Elasticsearch now, but still experimenting to find the rig
+can't test on local?
+
+[3:18:40 PM] Tokwan:
+> Afif Sohaili
+> can't test on local?
+Can. But since we're reindexing all the time, so just thought would try something else to see live changes
+
+--- Sunday, July 23, 2017 ---
+[11:47:09 AM] MMM:
+I'm looking at some AJAX calls that hit a PHP endpoint and it's able to convert form parameters like - data[pages][index][blocks][0] to a JSON object on the other side
+ is this a built in PHP feature?
